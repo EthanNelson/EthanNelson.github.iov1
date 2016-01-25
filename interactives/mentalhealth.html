@@ -25,6 +25,17 @@ div.tooltip {
   border-radius: 8px;           
   pointer-events: none;         
 }
+.download {
+    font-weight: bold;
+    color: #333333;
+    border: none;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 1%;
+    padding-top: 10px;
+    width: 99%;
+}
 </style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
@@ -128,6 +139,8 @@ d3.tsv("mentalhealth.tsv", function(error, data) {
 
 });
 </script>
-<a href="mentalhealth.tsv" download>Download the data</a>
+<a href="mentalhealth.tsv" download>
+  <div class="download">Download the data</div>
+</a>
 </body>
 </html>
