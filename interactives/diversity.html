@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <head>
 	<style>
+	.button {
 
+	}
 	</style>
 
 </head>
@@ -22,6 +24,7 @@
 
 var studentChart = c3.generate({
 	bindto: "#studentchart",
+	size: { width: 400, height: 400},
 	data: {
 		columns: [
 			["White", 65.3],
@@ -37,7 +40,7 @@ var studentChart = c3.generate({
 		type: "donut"
 	},
 	donut: {
-		title: "Student diversity" 
+		title: "Student Diversity" 
 	}
 });
 
@@ -55,6 +58,7 @@ function faculty () {
 		["Non Resident", 4.6]
 	  ]
 	});
+	d3.select("#studentChart .c3-chart-arcs-title").node().innerHTML = "Faculty Diversity";
 }
 
 function state () {
