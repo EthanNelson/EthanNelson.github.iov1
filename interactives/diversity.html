@@ -10,28 +10,66 @@
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
   <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
 <body>
-<div id="chart"></div>
+<div id="studentchart"></div>
+<div id="facultychart"></div>
+<div id="statechart"></div>
+<button type="button" id="button" onclick="faculty();">Click to see faculty data</button>
+<button type="button" id="button" onclick="student();">Click to see student data</button>
+<button type="button" id="button" onclick="state();">Click to see state data</button>
+
 </body>
 <script>
 
-var stateChart = c3.generate({
-	bindto: "#chart",
+var studentChart = c3.generate({
+	bindto: "#studentchart",
 	data: {
 		columns: [
-			["White", 85],
-			["Black", 5.2],
-			["Hispanic", 4.7],
-			["Asian", 4],
-			["American Indian", 1.1],
-			["Pacific Islander", 0.04 ],
-			["2 or more", 2.4],
-			["Unknown", 1.9]
+			["White", 65.3],
+			["Black", 4.3],
+			["Hispanic", 3.1],
+			["Asian", 9.2],
+			["American Indian", 1.2],
+			["Pacific Islander", 0.3],
+			["2 or more", 0],
+			["Unknown", 4],
+			["Non Resident", 12.6]
 		],
-		type: "donut",
+		type: "donut"
 	},
-	donut {
-		title: "State diversity"
+	donut: {
+		title: "Student diversity" 
 	}
 });
+
+function faculty () {
+	studentChart.load({
+	  columns: [	
+		["White", 73.8],
+		["Black", 2.1],
+		["Hispanic", 2.9],
+		["Asian", 12.6],
+		["American Indian", 0.4],
+		["Pacific Islander", 0.1],
+		["2 or more", 1.1],
+		["Unknown", 0.6],
+		["Non Resident", 4.6]
+	  ]
+	});
+}
+
+function state () {
+	studentChart.load({
+		columns: [
+			["White", 85.7],
+			["Black", 5.9],
+			["Asian", 4.7],
+			["American Indian", 1.3],
+			["Pacific Islander", 0.1 ],
+			["2 or more", 2.3],
+			["Unknown", 1.9]
+		]
+	});
+}
+
 </script>
 </html>
