@@ -56,7 +56,7 @@ var chart = c3.generate({
 		type: "donut"
 	},
 	donut: {
-		title: "Student Diversity" 
+		title: "University of Minnesota Diversity" 
 	}
 });
 
@@ -91,6 +91,8 @@ function state () {
 			["2 or more", 2.3]		
 		]
 	});
+	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "State Diversity";
+
 }
 
 function student () {
@@ -107,6 +109,7 @@ function student () {
 			["2 or more", 0.0],
 		]
 	});
+	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "University of Minnesota Diversity";
 }
 </script>
 </html>
