@@ -26,10 +26,18 @@
 		  font-size: small; 
 		  opacity: .6;
 		}
+		#note2 {
+		  font color: gray; 
+		  font-size: small; 
+		  opacity: .6;
+		}
 		#source { 
 		  font color: gray; 
 		  font-size: small; 
 		  opacity: .6;
+		}
+		.c3-chart-arcs-title {
+			font-weight: bold;
 		}
 	</style>
 
@@ -43,7 +51,8 @@
 
 	<div id="container">
 		<div id="chart"></div>
-		<div id="note">Census data for Minnesota does not include Hispanic, unknown, or non-resident data </div>
+		<div id="note">Census data for Minnesota does not include Hispanic, unknown, or non-resident data. </div>
+		<div id="note2">The number of students who reported two or more races is unknown. </div>
 
 		<button type="button" id="button" onclick="student();">Student data</button>
 		<button type="button" id="button" onclick="faculty();">Faculty data</button>
@@ -94,7 +103,7 @@ function faculty () {
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "Faculty Diversity";
 	document.getElementById('note').style.display = "none";
-
+	document.getElementById('note2').style.display = "none";
 }
 
 function state () {
@@ -113,6 +122,7 @@ function state () {
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "State Diversity";
 	document.getElementById('note').style.display = "block";
+	document.getElementById('note2').style.display = "none";
 }
 
 function student () {
@@ -131,6 +141,7 @@ function student () {
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "Student Diversity";
 	document.getElementById('note').style.display = "none";
+	document.getElementById('note2').style.display = "block";
 
 }
 </script>
