@@ -17,6 +17,20 @@
 		  background: #3cb0fd;
 		  text-decoration: none;
 		}
+		#container {
+			text-align: center;			
+		}
+		#note {
+		  display: none; 
+		  font color: gray; 
+		  font-size: small; 
+		  opacity: .6;
+		}
+		#source { 
+		  font color: gray; 
+		  font-size: small; 
+		  opacity: .6;
+		}
 	</style>
 
 </head>
@@ -27,20 +41,24 @@
 
 <body>
 
-	<div id="container" style="height:600; width:600;">
+	<div id="container">
 		<div id="chart"></div>
-	</div>
+		<div id="note">Census data for Minnesota does not include Hispanic, unknown, or non-resident data </div>
 
-<button type="button" id="button" onclick="student();">Student data</button>
-<button type="button" id="button" onclick="faculty();">Faculty data</button>
-<button type="button" id="button" onclick="state();">State data</button>
+		<button type="button" id="button" onclick="student();">Student data</button>
+		<button type="button" id="button" onclick="faculty();">Faculty data</button>
+		<button type="button" id="button" onclick="state();">State data</button>
+		
+		<div id="source">Sources: Office of Institutional Research, U.S. Census</div>
+
+	</div>
 
 </body>
 <script>
 
 var chart = c3.generate({
 	bindto: "#chart",
-	size: { width: 400, height: 400},
+	//size: { width: 400, height: 400},
 	data: {
 		columns: [
 			["White", 65.3],
@@ -75,6 +93,8 @@ function faculty () {
 	  ]
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "Faculty Diversity";
+	document.getElementById('note').style.display = "none";
+
 }
 
 function state () {
@@ -92,7 +112,7 @@ function state () {
 		]
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "State Diversity";
-
+	document.getElementById('note').style.display = "block";
 }
 
 function student () {
@@ -110,6 +130,8 @@ function student () {
 		]
 	});
 	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "Student Diversity";
+	document.getElementById('note').style.display = "none";
+
 }
 </script>
 </html>
