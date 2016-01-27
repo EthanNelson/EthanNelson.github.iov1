@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <head>
 	<style>
-	.button {
+		#button {
+		  -webkit-border-radius: 0;
+		  -moz-border-radius: 0;
+		  border-radius: 0px;
+		  font-family: Arial;
+		  color: #ffffff;
+		  font-size: 14px;
+		  background: #3498db;
+		  padding: 10px 20px 10px 20px;
+		  text-decoration: none;
+		}
 
-	}
+		#button:hover {
+		  background: #3cb0fd;
+		  text-decoration: none;
+		}
 	</style>
 
 </head>
 
 <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.css" rel="stylesheet" type="text/css">
+
 <body>
-<div id="studentchart"></div>
-<div id="facultychart"></div>
-<div id="statechart"></div>
-<button type="button" id="button" onclick="faculty();">Click to see faculty data</button>
-<button type="button" id="button" onclick="student();">Click to see student data</button>
-<button type="button" id="button" onclick="state();">Click to see state data</button>
+
+	<div id="container" style="height:600; width:600;">
+		<div id="chart"></div>
+	</div>
+
+<button type="button" id="button" onclick="student();">Student data</button>
+<button type="button" id="button" onclick="faculty();">Faculty data</button>
+<button type="button" id="button" onclick="state();">State data</button>
 
 </body>
 <script>
 
-var studentChart = c3.generate({
-	bindto: "#studentchart",
+var chart = c3.generate({
+	bindto: "#chart",
 	size: { width: 400, height: 400},
 	data: {
 		columns: [
 			["White", 65.3],
-			["Black", 4.3],
-			["Hispanic", 3.1],
+			["Non Resident", 12.6],
 			["Asian", 9.2],
+			["Black", 4.3],
+			["Unknown", 4.0],
+			["Hispanic", 3.1],
 			["American Indian", 1.2],
 			["Pacific Islander", 0.3],
-			["2 or more", 0],
-			["Unknown", 4],
-			["Non Resident", 12.6]
+			["2 or more", 0.0]
 		],
 		type: "donut"
 	},
@@ -45,35 +61,52 @@ var studentChart = c3.generate({
 });
 
 function faculty () {
-	studentChart.load({
+	chart.load({
 	  columns: [	
 		["White", 73.8],
-		["Black", 2.1],
-		["Hispanic", 2.9],
+		["Non Resident", 4.6],
 		["Asian", 12.6],
+		["Black", 2.2],
+		["Unknown", 2.1],
+		["Hispanic", 3.1],
 		["American Indian", 0.4],
 		["Pacific Islander", 0.1],
-		["2 or more", 1.1],
-		["Unknown", 0.6],
-		["Non Resident", 4.6]
+		["2 or more", 1.1]
 	  ]
 	});
-	d3.select("#studentChart .c3-chart-arcs-title").node().innerHTML = "Faculty Diversity";
+	d3.select("#chart .c3-chart-arcs-title").node().innerHTML = "Faculty Diversity";
 }
 
 function state () {
-	studentChart.load({
+	chart.load({
 		columns: [
 			["White", 85.7],
-			["Black", 5.9],
+			["Non Resident", 0.0],
 			["Asian", 4.7],
+			["Black", 5.9],
+			["Unknown", 0.0],
+			["Hispanic", 0.0],
 			["American Indian", 1.3],
 			["Pacific Islander", 0.1 ],
-			["2 or more", 2.3],
-			["Unknown", 1.9]
+			["2 or more", 2.3]		
 		]
 	});
 }
 
+function student () {
+	chart.load({
+		columns: [
+			["White", 65.3],
+			["Non Resident", 12.6],
+			["Asian", 9.2],
+			["Black", 4.3],
+			["Unknown", 4.0],
+			["Hispanic", 3.1],
+			["American Indian", 1.2],
+			["Pacific Islander", 0.3],
+			["2 or more", 0.0],
+		]
+	});
+}
 </script>
 </html>
