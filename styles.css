@@ -1,8 +1,7 @@
 body {
 	font-family: "PT Serif", serif;
 	width: 100%;
-	background-color: #eaeaea;
-
+	background-color: #FFF;
 }
 
 container {
@@ -10,26 +9,19 @@ container {
 }
 
 header {
-	padding-left: 0%;
 	text-align: center;
+	border-bottom: solid 3px #000;
+	padding: 4px;
 }
 #header h1 {
 	font-weight: bold;
 	font-size: x-large;
 }
-hr {
-	width: 95%;
-}
+
 #menu-bar {
 	top: -13px;
 }
 #content {
 	float:left;
 	width: 600px
-}
-#sidebar {
-	float: right;
-	border-left: thin solid  #000;
-	width: 400px;
-	height: 78vh;
 }
