@@ -1,128 +1,28 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
+<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+	<style>
+	</style>
+</head>
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 960px;
-}
-
-svg {
-  width: 100%;
-  height: 100%;
-}
-
-text {
-  font: 10px sans-serif;
-}
-
-form {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-polyline {
-  opacity: .3;
-  stroke: black;
-  stroke-width: 2px;
-  fill: none;
-}
-
-</style>
-<form>
-  <label><input type="radio" name="dataset" value="state" checked> State</label>
-  <label><input type="radio" name="dataset" value="faculty"> Faculty</label>
-  <label><input type="radio" name="dataset" value="students"> Students</label>
-</form>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
-
-var width = 960,
-    height = 500,
-    radius = Math.min(width, height) / 2;
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .append("g")
-    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-
-    svg.append("g")
-      .attr("class", "labels");
-    svg.append("g")
-      .attr("class", "lines");
-
-var color = d3.scale.ordinal()
-              .domain(["White", "Black Hispanic",  "Asian", "Am. Ind.",  "Pac. Islander", "2 or more", "Unknown"])
-              .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"])
-
-
-
-//d3.scale.category20();
-
-var pie = d3.layout.pie()
-    .value(function(d) { return d.state; })
-    .sort(null);
-
-var arc = d3.svg.arc()
-    .innerRadius(radius - 100)
-    .outerRadius(radius - 20);
-
-d3.tsv("https://raw.githubusercontent.com/EthanNelson/data-vizes/master/Diversity/diversity.tsv.txt", type, function(error, data) {
-  var path = svg.datum(data).selectAll("path")
-      .data(pie)
-      .enter().append("path")
-      .attr("fill", function(d, i) { return color(i); })
-      .attr("d", arc)
-      .each(function(d) { this._current = d; }); // store the initial angles
-
-      path.append("text")
-          .attr("transform", function(d) {
-            d.innerRadius = 0;
-            d.outerRadius = radius;
-            return "translate(" + arc.centroid(d) + ")";
-          })
-          .attr("text-anchor", "middle")
-          .text(function(d, i) { return data; });
-
-  d3.selectAll("input")
-      .on("change", change);
-
-  var timeout = setTimeout(function() {
-    d3.select("input[value=\"faculty\"]").property("checked", true).each(change);
-  }, 2000);
-
-  var timeout2 = setTimeout(function() {
-    d3.select("input[value=\"students\"]").property("checked", true).each(change);
-  }, 2000);
-
-  function change() {
-    var value = this.value;
-    clearTimeout(timeout);
-    pie.value(function(d) { return d[value]; }); // change the value function
-    path = path.data(pie); // compute the new angles
-    path.transition().duration(750).attrTween("d", arcTween); // redraw the arcs
-  }
-});
-
-function type(d) {
-  d.state = +d.state;
-  d.faculty = +d.faculty;
-  return d;
-}
-
-// Store the displayed angles in _current.
-// Then, interpolate from _current to the new angles.
-// During the transition, _current is updated in-place by d3.interpolate.
-function arcTween(a) {
-  var i = d3.interpolate(this._current, a);
-  this._current = i(0);
-  return function(t) {
-    return arc(i(t));
-  };
-}
-
-</script>
+<body>
+	<container>
+		<header>
+			<h1>Ethan Nelson</h1>
+			<div id="menu-bar">
+				<p>Home | Work | Resume | Contact</p>
+		</header>
+		<hr>
+		<div="content">
+			<div id="sidebar">
+				dsfgadsgsag
+			</div>
+			<div="main-content">
+				dsfafsa
+			</div>
+		</div>
+	</container>
+</body>
+</html>
