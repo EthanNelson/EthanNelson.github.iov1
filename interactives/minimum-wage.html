@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Minimum Wage</title>
 		<script type="text/javascript"	src="http://d3js.org/d3.v3.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 		<style type="text/css">
 			path {
 				-moz-transition: all 0.2s;
@@ -20,27 +21,31 @@
 			  rect {
 			    stroke-width: 2;
 			  }
+			.title {
+				font-size: 32;
+				font-family: 'PT Serif', serif;
+			}
 		</style>
 	</head>
-	<body>
+	<body style="position:relative">
 		<script type="text/javascript">
 
 			//Width and height
-			var w = 800;
+			var w = 900;
 			var h = 600;
 
 			//Define map projection
 			var projection = d3.geo.albersUsa()
 								   .translate([w/2, h/2])
-								   .scale([1000]);
+								   .scale([1200]);
 
 			//Define path generator
 			var path = d3.geo.path()
 							 .projection(projection);
 							 
 			//Define quantize scale to sort data values into buckets of color
-			var color = d3.scale.quantize()
-								.range(["#fef0d9","#fdcc8a","#fc8d59","#e34a33","#b30000"]);
+			var color = d3.scale.ordinal()
+								.range(["#a50026","#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4","#313695"] );
 								//Colors taken from colorbrewer.js, included in the D3 download
 
 			//Create SVG element
@@ -87,6 +92,16 @@
 						}		
 					}
 
+				var tooltip = d3.selectAll("body")
+					.data(json.features)
+					.enter()
+				    .append("div")
+				    .attr("d", path)
+				    .style("position", "absolute")
+				    .style("z-index", "10")
+				    .style("visibility", "hidden")
+				    .text(function(d) { return d.properties.value; });				
+
 					//Bind data and create one path per GeoJSON feature
 					svg.selectAll("path")
 					   .data(json.features)
@@ -104,7 +119,24 @@
 					   			//If value is undefined…
 						   		return "#ccc";
 					   		}
-					   })		
+					   })
+						.on("mouseover", function(){return tooltip.style("visibility", "visible");})
+						.on("mousemove", function(){return tooltip.style("top",
+						    (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+						.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+					  // .on("mouseover", function() {
+					  //		d3.select(this.enter().append("text")
+					  // 			.text(function(d) { return d.properties.value; }));
+					  // })
+
+					d3.select("svg")
+		      			.append("text")
+		      			.attr("y", 30)
+		      			.attr("x", w/2)
+		    			.style("text-anchor", "middle")
+		    			.style("font-weight", "600")
+		    			.style("font-size", "32")
+		      			.text("Minimum Wage in the United States");      		
 				});
 			
 			});
