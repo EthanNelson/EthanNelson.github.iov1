@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<title>Rural Access to Grocery stores</title>
+	<style>
+		.c3-bar {
+			opacity: .8 !important;
+			}
+	</style>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+		<div id="chart" style="height:410px; margin-left:80px"></div>
+</body>
+<script>
+
+var chart = c3.generate({
+	bindto: "#chart",
+	data: {
+		selection: {
+			grouped: true
+		},
+		columns:[ 
+			   ["Central", 36311],
+			   ["Northland", 32592],
+			   ["Northwest", 37932],
+			   ["Southern", 25207],
+			   ["Southwest", 65036],
+			   ["West Central", 35559],
+			   ["Total", 232637]
+			],
+	type: "bar"
+	},
+	axis: {
+		x: {		
+			label: "Region"
+		},
+		y: {
+			label: "Number"
+		}
+	},
+	size: {
+		width: 510
+	},
+	tooltip: {
+		grouped: false,
+        format: {
+			value: d3.format(','), 
+			title: function (d) { return 'Number' },
+            }
+	},
+	color: {
+		pattern: ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d"]
+	},
+	bar: {
+		width: {
+			ratio: 0.75
+		}
+	}
+});
+
+d3.select("#chart svg").append("text")
+	.attr('x', d3.select('#chart svg').node().getBoundingClientRect().width / 2)        
+	.attr("y", 30)
+    .style("text-anchor", "middle")
+    .style("font-size", "large")
+    .style("font-family", "Oswald")
+    .text("Rural Minnesotans with low food access");
+d3.select("#chart svg").append("text")
+	.attr('x', d3.select('#chart svg').node().getBoundingClientRect().width / 2)    
+	.attr("y", 45)
+    .style("text-anchor", "middle")
+    .style("font-size", "x-small")
+    .text("Source: USDA");
+
+</script>
