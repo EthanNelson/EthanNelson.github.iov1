@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Buyouts</title>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <style>
+    path {
+      fill: none;
+    }
+      div.tooltip { 
+          position: absolute;     
+          text-align: center;     
+          width: 95px;          
+          height: 28px;         
+          padding: 2px;       
+          font: 12px sans-serif;    
+          border: 0px;    
+          border-radius: 8px;     
+          pointer-events: none;     
+      }     
+  </style>
+</head>
+<body>
+  <script>
+      //Width and height
+      var w = 1200,
+        h = 610;
+
+      //Define map projection
+      var projection = d3.geo.albers()
+                   .rotate( [96.782228, 0] )
+                   .center( [0, 46.878798] )
+                   .translate([w/2 + 80, h/2 - 50  ])
+                   .scale([180000]);
+
+      //Define path generator
+      var path = d3.geo.path()
+               .projection(projection);
+
+      //Create SVG element
+      var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+      var div = d3.select("body").append("div") 
+          .attr("class", "tooltip")       
+          .style("opacity", 1);            
+
+      d3.json("Neighborhoods.json", function(json) {
+
+        //Bind data and create one path per GeoJSON feature
+        svg.selectAll("path")
+           .data(json.features)
+           .enter()
+           .append("path")
+           .attr("d", path)
+           .style("fill-opacity", .7)
+           .style("fill", "lightgray")
+           // .style("stroke", "gray")
+           .style("stroke-opacity", .7)
+           .on("mousemove", function() {
+              d3.select(this)
+                .style("fill", "gray");
+            })
+           .on("mouseout", function() {
+              d3.select(this)
+                .style("fill", "lightgray");
+           })
+
+        d3.csv("buyouts.csv", function(data) {
+
+          svg.selectAll("circle")
+          .data(data)
+          .enter()
+          .append("circle")
+          .attr("cx", function(d) {
+            return projection([d.lon, d.lat])[0];
+          })
+          .attr("cy", function(d) {
+            return projection([d.lon, d.lat])[1];
+          })
+          .attr("r", 2)
+          .style("opacity", 0.75)
+           .on("mouseover", function(d, i) {
+            d3.select(this).style("fill-opacity", 1)
+            div.transition()
+              .duration(100)
+              .style("opacity", .8)
+              .style("fill", "red");
+            div .html("Purchase price: " + d.Cost)
+                    .style("left", (d3.event.pageX) + "px")   
+                    .style("top", (d3.event.pageY - 28) + "px");              
+           })
+           .on("mouseout", function(d, i) {
+            d3.select(this)
+              .style({"fill-opacity": .75})
+                div.transition()
+                   .delay(50)
+                   .duration(200)
+                   .style("opacity", 0);              
+           });          
+
+          });
+
+        d3.json("river.json", function(riverData) {
+          svg.selectAll("path")
+           .data(riverData.features)
+           .enter()
+           .append("path")
+           .attr("d", path)
+           .style("stroke", function(d) {
+                //Get data value
+                var value = d.properties.RIVER_NAME;
+                
+                if (value == "Red River") {
+                  //If value exists…
+                  return "blue";
+                } else {
+                  //If value is undefined…
+                  return "none";
+                }
+             })
+           .style("stroke-width", 1.1)
+        })          
+     });
+
+      d3.select("svg")
+        .append("text")
+        .attr("class", "title")
+        .attr("y", 100)
+        .attr("x", w/2.5)
+        .style("text-anchor", "middle")
+        .style("font-size", "large")
+        .style("font-family", "Oswald")
+        .style("font-weight", "600")
+        .text("Fargo Flood Buyouts 2009-2015");   
+    
+  </script>
+<!--   <div id="option">
+    <input name="updateButton" 
+                 type="button" 
+                value="Update" 
+                onclick="updateData()" />
+  </div> -->
+</body>
+</html>
