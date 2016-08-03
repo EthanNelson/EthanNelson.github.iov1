@@ -1,0 +1,7375 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779724,46.857156 ]
+    },
+    "properties": {
+    "Land Address":"1529 SOUTH RIVER RD S",
+    "Address":"1529 SOUTH RIVER RD S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 217",
+    "Cost":"NA",
+    "Deed":"812337",
+    "Deed Restricted":"No",
+    "Buyout Year":"1994",
+    "Grantor":"DIXON, JAMES E. & VIRGINIA S.",
+    "Resold Prop":"No",
+    "Acres":0.11,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792293,46.931553 ]
+    },
+    "properties": {
+    "Land Address":"3913 10 ST N",
+    "Address":"3913 10 ST N Fargo",
+    "Addition Name":"Red River Addition",
+    "Legal Description":"Lot 12, Blk Replat of 2",
+    "Cost":"$1.00 ",
+    "Deed":"826672",
+    "Deed Restricted":"No",
+    "Buyout Year":"1995",
+    "Grantor":"CASS COUNTY",
+    "Resold Prop":"No",
+    "Acres":0.74,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789003,46.833831 ]
+    },
+    "properties": {
+    "Land Address":"508 SOUTHWOOD DR S",
+    "Address":"508 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 37",
+    "Cost":"$285,000 ",
+    "Deed":"887796",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1995",
+    "Grantor":"WIMBUSH, MURIEL H. & DAROLD RATH",
+    "Resold Prop":"No",
+    "Acres":0.91,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d2"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792784,46.928501 ]
+    },
+    "properties": {
+    "Land Address":"3753 10 ST N",
+    "Address":"3753 10 ST N Fargo",
+    "Addition Name":"Red River Addition",
+    "Legal Description":"Lot 36, Blk Replat of 2",
+    "Cost":"$1.00 ",
+    "Deed":"853187",
+    "Deed Restricted":"No",
+    "Buyout Year":"1996",
+    "Grantor":"CASS COUNTY",
+    "Resold Prop":"No",
+    "Acres":0.59,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792076,46.930589 ]
+    },
+    "properties": {
+    "Land Address":"3845 10 ST N",
+    "Address":"3845 10 ST N Fargo",
+    "Addition Name":"Red River Addition",
+    "Legal Description":"Lot 21, Blk Replat of 2",
+    "Cost":"$1.00 ",
+    "Deed":"853182",
+    "Deed Restricted":"No",
+    "Buyout Year":"1996",
+    "Grantor":"CASS COUNTY",
+    "Resold Prop":"No",
+    "Acres":0.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d4"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773006,46.883853 ]
+    },
+    "properties": {
+    "Land Address":"68 NORTH TER N",
+    "Address":"68 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 24, Blk 4",
+    "Cost":"$27,500 ",
+    "Deed":"888592",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SULLIVAN, ROBERT",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d5"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773332,46.884013 ]
+    },
+    "properties": {
+    "Land Address":"64 NORTH TER N",
+    "Address":"64 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 22, Blk 4",
+    "Cost":"$30,000 ",
+    "Deed":"878607",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SMITH, ANDREW",
+    "Resold Prop":"No",
+    "Acres":0.25,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d6"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667453,45.546083 ]
+    },
+    "properties": {
+    "Land Address":"95 SOUTH TER N",
+    "Address":"95 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 24, Blk 1",
+    "Cost":"$50,000 ",
+    "Deed":"895443",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"AHLSTEN, JULIE",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d7"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775105,46.884008 ]
+    },
+    "properties": {
+    "Land Address":"725 NORTH RIVER RD N",
+    "Address":"725 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 16, Blk 4",
+    "Cost":"$56,000 ",
+    "Deed":"884450",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SATHER, PAUL T - TRUSTEE",
+    "Resold Prop":"No",
+    "Acres":0.3,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d8"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7751,46.884015 ]
+    },
+    "properties": {
+    "Land Address":"727 NORTH RIVER RD N",
+    "Address":"727 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 14,15; Blk 4",
+    "Cost":"$56,000 ",
+    "Deed":"884451",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SATHER, PAUL T - TRUSTEE",
+    "Resold Prop":"No",
+    "Acres":0.3,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d9"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.474224,41.653572 ]
+    },
+    "properties": {
+    "Land Address":"129 SOUTH TER N",
+    "Address":"129 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 27, Blk 1",
+    "Cost":"$56,500 ",
+    "Deed":"884464",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"PINK, DAVID",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d10"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.664902,45.546289 ]
+    },
+    "properties": {
+    "Land Address":"65 SOUTH TER N",
+    "Address":"65 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 17, Blk 1",
+    "Cost":"$57,000 ",
+    "Deed":"884443",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SANBORN, RUTH",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d11"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667193,45.546082 ]
+    },
+    "properties": {
+    "Land Address":"79 SOUTH TER N",
+    "Address":"79 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 20, Blk 1",
+    "Cost":"$60,000 ",
+    "Deed":"884441",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"GAGELIN, MARIANNE T.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.804956,46.775175 ]
+    },
+    "properties": {
+    "Land Address":"75 SOUTH TER N",
+    "Address":"75 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 19, Blk 1",
+    "Cost":"$62,000 ",
+    "Deed":"884442",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SWENSON, HARRIS JAMES, & OLGA MARCEL",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773837,46.884205 ]
+    },
+    "properties": {
+    "Land Address":"46 NORTH TER N",
+    "Address":"46 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 19, Blk 4",
+    "Cost":"$64,000 ",
+    "Deed":"884447",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"PENUEL, JAMES A. III & MARCIA J.",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d14"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773669,46.884152 ]
+    },
+    "properties": {
+    "Land Address":"60 NORTH TER N",
+    "Address":"60 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 20, Blk 4",
+    "Cost":"$65,000 ",
+    "Deed":"888590",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"LINDSAY, WALLACE W. & CAROL J.",
+    "Resold Prop":"No",
+    "Acres":0.25,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667258,45.546083 ]
+    },
+    "properties": {
+    "Land Address":"83 SOUTH TER N",
+    "Address":"83 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 21, Blk 1",
+    "Cost":"$66,000 ",
+    "Deed":"884440",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SCHEER, LEONARD P. & DEANNA M",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d16"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772885,46.883754 ]
+    },
+    "properties": {
+    "Land Address":"70 NORTH TER N",
+    "Address":"70 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Part of Lot 25, Blk 4",
+    "Cost":"$67,000 ",
+    "Deed":"888594",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KANKOVSKY, DALE M.",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d17"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775121,46.884047 ]
+    },
+    "properties": {
+    "Land Address":"732 NORTH RIVER RD N",
+    "Address":"732 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 10, Blk 3",
+    "Cost":"$68,900 ",
+    "Deed":"884444",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HAALAND",
+    "Resold Prop":"No",
+    "Acres":0.3,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d18"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772203,46.883607 ]
+    },
+    "properties": {
+    "Land Address":"98 NORTH TER N",
+    "Address":"98 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 28, Blk 4",
+    "Cost":"$72,500 ",
+    "Deed":"878003",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KRABBENHOFT, TROY",
+    "Resold Prop":"No",
+    "Acres":0.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d19"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.876923,46.811197 ]
+    },
+    "properties": {
+    "Land Address":"53 SOUTH TER N",
+    "Address":"53 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 14, Blk 1",
+    "Cost":"$73,500 ",
+    "Deed":"882317",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"GAEBEL, CLARK COLLIN & KATHLEEN M.",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d20"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775028,46.884321 ]
+    },
+    "properties": {
+    "Land Address":"805 NORTH RIVER RD N",
+    "Address":"805 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 13, Blk 4",
+    "Cost":"$75,000 ",
+    "Deed":"884448",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"NELSON, WILLIAM A.",
+    "Resold Prop":"No",
+    "Acres":0.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d21"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772775,46.883663 ]
+    },
+    "properties": {
+    "Land Address":"92 NORTH TER N",
+    "Address":"92 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Part of Lot 25, Blk 4",
+    "Cost":"$75,000 ",
+    "Deed":"888746",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KANKOVSKY, DALE M.",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d22"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775096,46.884022 ]
+    },
+    "properties": {
+    "Land Address":"729 NORTH RIVER RD N",
+    "Address":"729 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Part of Lots 13, 14, Blk 4",
+    "Cost":"$76,900 ",
+    "Deed":"880168",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"DOYLE, DANIEL J. & DARLENE M.",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d23"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798711,46.806507 ]
+    },
+    "properties": {
+    "Land Address":"1010 49 AVE S",
+    "Address":"1010 49 AVE S Fargo",
+    "Addition Name":"S36, T139, N of R49 W",
+    "Legal Description":"Tax Lot 40",
+    "Cost":"$85,000 ",
+    "Deed":"888598",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"MAIER, ARCHIE R. & SHARON A.",
+    "Resold Prop":"No",
+    "Acres":0.45,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d24"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789803,46.877186 ]
+    },
+    "properties": {
+    "Land Address":"806-808 NORTH RIVER RD NOak Grove Addition",
+    "Address":"806-808 NORTH RIVER RD NOak Grove Addition Fargo",
+    "Addition Name":"",
+    "Legal Description":"Lots 11 and 12, Blk 3",
+    "Cost":"$88,000 ",
+    "Deed":"884446",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"MCCONNELL",
+    "Resold Prop":"No",
+    "Acres":0.46,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775126,46.88404 ]
+    },
+    "properties": {
+    "Land Address":"730 NORTH RIVER RD N",
+    "Address":"730 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 9, Blk 3",
+    "Cost":"$88,500 ",
+    "Deed":"884445",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"NASLUND, RANDOPH W. & RUBY K.",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d26"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772003,46.883555 ]
+    },
+    "properties": {
+    "Land Address":"100 NORTH TER N",
+    "Address":"100 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 29, part of Lot 30, Blk",
+    "Cost":"$98,500 ",
+    "Deed":"1143903",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"DOYLE, TIMOTHY K. & BONNIE G.",
+    "Resold Prop":"No",
+    "Acres":0.32,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d27"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801215,46.806445 ]
+    },
+    "properties": {
+    "Land Address":"1126 49 AVE S",
+    "Address":"1126 49 AVE S Fargo",
+    "Addition Name":"S36, T139N, R49W",
+    "Legal Description":"Tax Lot 34",
+    "Cost":"$104,000 ",
+    "Deed":"884462",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"ND 7TH DAY ADVENTISTS",
+    "Resold Prop":"No",
+    "Acres":0.59,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d28"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.892108,46.80039 ]
+    },
+    "properties": {
+    "Land Address":"63 SOUTH TER N",
+    "Address":"63 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"S 125 ft of Lots 15 and 16,",
+    "Cost":"$115,000 ",
+    "Deed":"887793",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"NELSON, JERALD",
+    "Resold Prop":"No",
+    "Acres":0.57,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d29"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801613,46.806416 ]
+    },
+    "properties": {
+    "Land Address":"1134 49 AVE S",
+    "Address":"1134 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 33",
+    "Cost":"$115,000 ",
+    "Deed":"882402",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"PRZYBILLA, NORMAN J. & MARGARET",
+    "Resold Prop":"No",
+    "Acres":0.6,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d30"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803363,46.812224 ]
+    },
+    "properties": {
+    "Land Address":"4412 UNIVERSITY DR S",
+    "Address":"4412 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritt’s 1st Subdivision",
+    "Legal Description":"Lot 6, S36, T139N, R49W",
+    "Cost":"$117,500 ",
+    "Deed":"887794",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"LARSON, LYNN",
+    "Resold Prop":"No",
+    "Acres":0.64,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d31"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773172,46.88393 ]
+    },
+    "properties": {
+    "Land Address":"66 NORTH TER N",
+    "Address":"66 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 23, Blk 4",
+    "Cost":"$122,500 ",
+    "Deed":"884494",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KNIGHTON, DANIEL R. & KAREN P.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d32"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800815,46.806453 ]
+    },
+    "properties": {
+    "Land Address":"1118 49 AVE S",
+    "Address":"1118 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 35",
+    "Cost":"$125,000 ",
+    "Deed":"882320",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HUNT, DANIEL & MARY ANNE E.",
+    "Resold Prop":"No",
+    "Acres":0.56,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d33"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79908,46.807138 ]
+    },
+    "properties": {
+    "Land Address":"1017 49 AVE S",
+    "Address":"1017 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 30",
+    "Cost":"$126,000 ",
+    "Deed":"887798",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"ANDERSON, GALEN K.",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d34"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800277,46.807167 ]
+    },
+    "properties": {
+    "Land Address":"1109 49 AVE S",
+    "Address":"1109 49 AVE S Fargo",
+    "Addition Name":"S36, T139N, R49W",
+    "Legal Description":"Tax Lot 27",
+    "Cost":"$126,000 ",
+    "Deed":"882322",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HOLTER, MICHAEL E. & JACQUELINE M.",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800415,46.806457 ]
+    },
+    "properties": {
+    "Land Address":"1110 49 AVE S",
+    "Address":"1110 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 36",
+    "Cost":"$132,500 ",
+    "Deed":"884460",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"BACKER, LEON J. & KAREN E.",
+    "Resold Prop":"No",
+    "Acres":0.54,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d36"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800676,46.807177 ]
+    },
+    "properties": {
+    "Land Address":"1115 49 AVE S",
+    "Address":"1115 49 AVE S Fargo",
+    "Addition Name":"S36, T139N, R49W",
+    "Legal Description":"Tax Lot 26",
+    "Cost":"$132,900 ",
+    "Deed":"884463",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"JAROLIMEK, EARL P. & KRISTI M.",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d37"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799567,46.806474 ]
+    },
+    "properties": {
+    "Land Address":"1026 49 AVE S",
+    "Address":"1026 49 AVE S Fargo",
+    "Addition Name":"S36, T139N  R49W",
+    "Legal Description":"Tax Lot 38",
+    "Cost":"$133,900 ",
+    "Deed":"882321",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"OVERVOLD, CLIFF K. & MARY K.",
+    "Resold Prop":"No",
+    "Acres":0.6,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d38"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800016,46.806462 ]
+    },
+    "properties": {
+    "Land Address":"1102 49 AVE S",
+    "Address":"1102 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 37",
+    "Cost":"$135,000 ",
+    "Deed":"887799",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SCHWINGHAMMER, ROGER E. & JUDITH K.",
+    "Resold Prop":"No",
+    "Acres":0.51,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d39"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798262,46.806554 ]
+    },
+    "properties": {
+    "Land Address":"1002 49 AVE S",
+    "Address":"1002 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 41",
+    "Cost":"$135,500 ",
+    "Deed":"887797",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"CARLSON, SCOTT B. & GAYLE Y.",
+    "Resold Prop":"No",
+    "Acres":0.59,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d40"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803502,46.811535 ]
+    },
+    "properties": {
+    "Land Address":"4502 UNIVERSITY DR S",
+    "Address":"4502 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritt’s 1st Subdivision",
+    "Legal Description":"Lots 3 & 4",
+    "Cost":"$142,000 ",
+    "Deed":"884452",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"THRONTVEIT, NEAL D. & PAULETTE V. 1, 2, 3.No",
+    "Resold Prop":"",
+    "Acres":1.07,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d41"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799679,46.807152 ]
+    },
+    "properties": {
+    "Land Address":"1025 49 AVE S",
+    "Address":"1025 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lots 28 & 29",
+    "Cost":"$146,500 ",
+    "Deed":"884461",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"BACKER, BERNARD E. & TERESA S",
+    "Resold Prop":"No",
+    "Acres":0.85,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790694,46.834449 ]
+    },
+    "properties": {
+    "Land Address":"710 SOUTHWOOD DR S",
+    "Address":"710 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 26",
+    "Cost":"$185,000 ",
+    "Deed":"884459",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HAWKEN, CHARLES H & KATHLEEN K.",
+    "Resold Prop":"No",
+    "Acres":0.93,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d43"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.787765,46.833216 ]
+    },
+    "properties": {
+    "Land Address":"501 SOUTHWOOD DR S",
+    "Address":"501 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 39",
+    "Cost":"$220,000 ",
+    "Deed":"905695",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HERMAN, DOUGLAS & SARAH ANDREWS",
+    "Resold Prop":"No",
+    "Acres":1.83,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d44"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790121,46.834227 ]
+    },
+    "properties": {
+    "Land Address":"614 SOUTHWOOD DR S",
+    "Address":"614 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 31",
+    "Cost":"$230,000 ",
+    "Deed":"888900",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KJOS, MONTE W. & NOLA K",
+    "Resold Prop":"No",
+    "Acres":0.96,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d45"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.80428,46.814514 ]
+    },
+    "properties": {
+    "Land Address":"4202 UNIVERSITY DR S",
+    "Address":"4202 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritts 2nd Addtion",
+    "Legal Description":"Part or Lot 1",
+    "Cost":"$238,000 ",
+    "Deed":"884452",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"THRONTVEIT, NEAL D. & PAULETTE V. 1, 2, 3.No",
+    "Resold Prop":"",
+    "Acres":3.69,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d46"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801935,46.813433 ]
+    },
+    "properties": {
+    "Land Address":"1215 EL CANO DR S",
+    "Address":"1215 EL CANO DR S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tax Lot 6",
+    "Cost":"$238,000 ",
+    "Deed":"889641",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"COLMAN, FRIEDA K.",
+    "Resold Prop":"No",
+    "Acres":0.85,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d47"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.788657,46.833473 ]
+    },
+    "properties": {
+    "Land Address":"502 SOUTHWOOD DR S",
+    "Address":"502 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 38",
+    "Cost":"$260,000 ",
+    "Deed":"887795",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"GEORGE, STEVEN C. & JAN HUESGEN",
+    "Resold Prop":"No",
+    "Acres":1.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d48"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791253,46.834645 ]
+    },
+    "properties": {
+    "Land Address":"714 SOUTHWOOD DR S",
+    "Address":"714 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 25",
+    "Cost":"$275,000 ",
+    "Deed":"884458",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"SAINTE MARIE,  MICHAEL D. & SUSAN",
+    "Resold Prop":"No",
+    "Acres":0.95,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d49"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801781,46.815338 ]
+    },
+    "properties": {
+    "Land Address":"1221 EL CANO DR S",
+    "Address":"1221 EL CANO DR S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"NE1/4",
+    "Cost":"$348,500 ",
+    "Deed":"882318",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"HAAKE, BRENT C. & WAHLDIECK, DAWN M.",
+    "Resold Prop":"No",
+    "Acres":7.25,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d50"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.806516,46.815322 ]
+    },
+    "properties": {
+    "Land Address":"4145 UNIVERSITY DR S",
+    "Address":"4145 UNIVERSITY DR S Fargo",
+    "Addition Name":"MLAR Addition",
+    "Legal Description":"Lot 1, Blk 1",
+    "Cost":"NA",
+    "Deed":"884493",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"GREUEL, LOWELL E. & ELVIRA M.",
+    "Resold Prop":"No",
+    "Acres":2.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d51"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667519,45.546083 ]
+    },
+    "properties": {
+    "Land Address":"99 SOUTH TER N",
+    "Address":"99 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 25, Blk 1",
+    "Cost":"NA",
+    "Deed":"895445",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"FIRST NATIONWIDE MTG CORP REILLY 1",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d52"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776422,46.899606 ]
+    },
+    "properties": {
+    "Land Address":"1613 ELM ST N",
+    "Address":"1613 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 8, Blk 1",
+    "Cost":"NA",
+    "Deed":"887792",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"HAAHR, JAMES C. & LAUREL A.",
+    "Resold Prop":"No",
+    "Acres":0.33,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d53"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776541,46.89981 ]
+    },
+    "properties": {
+    "Land Address":"1619 ELM ST N",
+    "Address":"1619 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 9, Blk 1",
+    "Cost":"NA",
+    "Deed":"888597",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"ACUFF, VIVIAN J.",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d54"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776604,46.900058 ]
+    },
+    "properties": {
+    "Land Address":"1625 ELM ST N",
+    "Address":"1625 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 10, Blk 1",
+    "Cost":"NA",
+    "Deed":"888596",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"DOCKTER, WADE  & STACY J. STONER-DOCKTNo",
+    "Resold Prop":"",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d55"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773761,46.900207 ]
+    },
+    "properties": {
+    "Land Address":"41 WOODLAND DR N",
+    "Address":"41 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 18, Blk 1",
+    "Cost":"NA",
+    "Deed":"884457",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"WHITE, CARL A. & JEAN Y.",
+    "Resold Prop":"No",
+    "Acres":0.81,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d56"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774022,46.901576 ]
+    },
+    "properties": {
+    "Land Address":"69 WOODLAND DR N",
+    "Address":"69 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 23, Blk 1",
+    "Cost":"NA",
+    "Deed":"884455",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"KNUDSON, ROBERT J & BEVERLY J.",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d57"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774075,46.901809 ]
+    },
+    "properties": {
+    "Land Address":"75 WOODLAND DR N",
+    "Address":"75 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 24, Blk 1",
+    "Cost":"NA",
+    "Deed":"888595",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"RINGHAM, MARK S. & SUE ELLEN L.",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d58"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774153,46.90215 ]
+    },
+    "properties": {
+    "Land Address":"81 WOODLAND DR N",
+    "Address":"81 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 10, Blk 4",
+    "Cost":"NA",
+    "Deed":"887789",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"RICHARD, PAUL F. & MARY JO",
+    "Resold Prop":"No",
+    "Acres":0.36,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d59"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773846,46.902426 ]
+    },
+    "properties": {
+    "Land Address":"85 WOODLAND DR N",
+    "Address":"85 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 9, Blk 4",
+    "Cost":"NA",
+    "Deed":"887790",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"SELLAND, CYNTHIA",
+    "Resold Prop":"No",
+    "Acres":0.74,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774028,46.902697 ]
+    },
+    "properties": {
+    "Land Address":"89 WOODLAND DR N",
+    "Address":"89 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 8, Blk 4",
+    "Cost":"NA",
+    "Deed":"887791",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"SCHAEFER, RICHARD R. & MARY G.",
+    "Resold Prop":"No",
+    "Acres":0.75,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d61"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774326,46.903029 ]
+    },
+    "properties": {
+    "Land Address":"93 WOODLAND DR N",
+    "Address":"93 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 7, Blk 4",
+    "Cost":"NA",
+    "Deed":"887788",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"JONES, PATRICK A. & JEAN N.",
+    "Resold Prop":"No",
+    "Acres":1.01,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d62"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77489,46.903107 ]
+    },
+    "properties": {
+    "Land Address":"97 WOODLAND DR N",
+    "Address":"97 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 6, Blk 4",
+    "Cost":"NA",
+    "Deed":"898484",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"ASCHBACHER, PETER W. & JACQULENE",
+    "Resold Prop":"No",
+    "Acres":0.64,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d63"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789803,46.877186 ]
+    },
+    "properties": {
+    "Land Address":"no address",
+    "Address":"no address Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Unplatted",
+    "Cost":"NA",
+    "Deed":"NA",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"NA",
+    "Resold Prop":"No",
+    "Acres":0.69,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d64"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789803,46.877186 ]
+    },
+    "properties": {
+    "Land Address":"no address",
+    "Address":"no address Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Unplatted",
+    "Cost":"NA",
+    "Deed":"NA",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"NA",
+    "Resold Prop":"No",
+    "Acres":0.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d65"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803458,46.809762 ]
+    },
+    "properties": {
+    "Land Address":"4718 UNIVERSITY DR S",
+    "Address":"4718 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeney addition",
+    "Legal Description":"Lot 3 & 4, Blk 1",
+    "Cost":"NA",
+    "Deed":"938772",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"BALCOM, JAMES R. & SHARON J.",
+    "Resold Prop":"No",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d66"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798685,46.807146 ]
+    },
+    "properties": {
+    "Land Address":"1011 49 AVE S",
+    "Address":"1011 49 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tax Lot 31 Unplatted",
+    "Cost":"NA",
+    "Deed":"888598",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"MAIER, ARCHIE R. & SHARON A.",
+    "Resold Prop":"No",
+    "Acres":0.39,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d67"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803287,46.815017 ]
+    },
+    "properties": {
+    "Land Address":"4150 UNIVERSITY DR S",
+    "Address":"4150 UNIVERSITY DR S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Unplatted",
+    "Cost":"NA",
+    "Deed":"882315",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"KEMF, MARK J. & JOAN R.",
+    "Resold Prop":"No",
+    "Acres":1.06,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d68"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775028,46.884329 ]
+    },
+    "properties": {
+    "Land Address":"807 NORTH RIVER RD N",
+    "Address":"807 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 11 except N16 ft there NA",
+    "Cost":"",
+    "Deed":"882323",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"LUDWIG, HERBERT R. JR & MICHAELA A.",
+    "Resold Prop":"No",
+    "Acres":0.4,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d69"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776383,46.898656 ]
+    },
+    "properties": {
+    "Land Address":"1501 ELM ST N",
+    "Address":"1501 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 3 & 13 feet of 4 Block1NA",
+    "Cost":"",
+    "Deed":"884456",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"BAKKUM, ROBERT C. & GEORGIA L.",
+    "Resold Prop":"No",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d70"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776318,46.898929 ]
+    },
+    "properties": {
+    "Land Address":"1519 ELM ST N",
+    "Address":"1519 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Part lot 4 & all Lot 5 excep NA",
+    "Cost":"",
+    "Deed":"884453",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"SWANSON, JAMES E. & NORMA E.",
+    "Resold Prop":"No",
+    "Acres":0.47,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d71"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77487,46.899761 ]
+    },
+    "properties": {
+    "Land Address":"31 WOODLAND DR N",
+    "Address":"31 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 15 & westerly 1/2 Lot NA",
+    "Cost":"",
+    "Deed":"884454",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"HOVE, SYLVIA B.",
+    "Resold Prop":"No",
+    "Acres":1.01,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d72"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774192,46.899971 ]
+    },
+    "properties": {
+    "Land Address":"37 WOODLAND DR N",
+    "Address":"37 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"East 1/2 Lot 16 & all 17, Bl NA",
+    "Cost":"",
+    "Deed":"888981",
+    "Deed Restricted":"No",
+    "Buyout Year":"1997",
+    "Grantor":"HANSEN, ROBERT L",
+    "Resold Prop":"No",
+    "Acres":1,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d73"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799116,46.806483 ]
+    },
+    "properties": {
+    "Land Address":"1018 49 AVE S",
+    "Address":"1018 49 AVE S Fargo",
+    "Addition Name":"S26, T139N R49W",
+    "Legal Description":"Tax Lot 39",
+    "Cost":"",
+    "Deed":"882319",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1997",
+    "Grantor":"DONALDSON, THOMAS C. & MARY ANN",
+    "Resold Prop":"No",
+    "Acres":0.44,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d74"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802019,46.806358 ]
+    },
+    "properties": {
+    "Land Address":"1142 49 AVE S",
+    "Address":"1142 49 AVE S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"Tax Lot 32",
+    "Cost":"$118,000 ",
+    "Deed":"880382",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"KESSLER, TIMOTHY P. & MARY A.",
+    "Resold Prop":"No",
+    "Acres":0.6,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d75"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789589,46.834001 ]
+    },
+    "properties": {
+    "Land Address":"610 SOUTHWOOD DR S",
+    "Address":"610 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 32",
+    "Cost":"$210,000 ",
+    "Deed":"890141",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"CHAPWESKE, GERALD W. & MARY S.",
+    "Resold Prop":"No",
+    "Acres":1.04,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d76"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779808,46.856772 ]
+    },
+    "properties": {
+    "Land Address":"201 LINDEN AVE S",
+    "Address":"201 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lots 218, 219, 220",
+    "Cost":"NA",
+    "Deed":"896221",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"DIXON, JAMES E. & VIRGINIA S.",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d77"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.777257,46.88188 ]
+    },
+    "properties": {
+    "Land Address":"2 6 AVE N",
+    "Address":"2 6 AVE N Fargo",
+    "Addition Name":"Keeney & Derrtt’s 2nd   dditio Lots 5, 6 &7, Blk 28",
+    "Legal Description":"",
+    "Cost":"NA",
+    "Deed":"913151",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"RICHARD, O. DONNIE & SHARON L.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d78"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77349,46.884098 ]
+    },
+    "properties": {
+    "Land Address":"62 NORTH TER N",
+    "Address":"62 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 21, Blk 4",
+    "Cost":"NA",
+    "Deed":"897096",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"MCFARLAND, BRIAN J. & JACQUELINE J.",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d79"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667323,45.546083 ]
+    },
+    "properties": {
+    "Land Address":"87 SOUTH TER N",
+    "Address":"87 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 22, Blk 1",
+    "Cost":"NA",
+    "Deed":"905694",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"CRULL, DAVID D. & CONSTANCE L.",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d80"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795504,46.756343 ]
+    },
+    "properties": {
+    "Land Address":"93 SOUTH TER N",
+    "Address":"93 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 23, Blk 1",
+    "Cost":"NA",
+    "Deed":"895095",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"FREMSTAD, CHARLES C. & KRISTINE",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d81"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773779,46.900567 ]
+    },
+    "properties": {
+    "Land Address":"45 WOODLAND DR N",
+    "Address":"45 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 19, Blk 1",
+    "Cost":"NA",
+    "Deed":"905696",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"NAGEL, MARY ANN",
+    "Resold Prop":"No",
+    "Acres":0.51,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d82"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77384,46.900862 ]
+    },
+    "properties": {
+    "Land Address":"51 WOODLAND DR N",
+    "Address":"51 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 20, Blk 1",
+    "Cost":"NA",
+    "Deed":"913820",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"BRASETH, WR - LIVING TRUST",
+    "Resold Prop":"No",
+    "Acres":0.4,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d83"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803158,46.810126 ]
+    },
+    "properties": {
+    "Land Address":"4710 UNIVERSITY DR S",
+    "Address":"4710 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeeny Addition",
+    "Legal Description":"Lot 4",
+    "Cost":"NA",
+    "Deed":"916059",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"BALCOM, JAMES R. & SHARON J.",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d84"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803158,46.810126 ]
+    },
+    "properties": {
+    "Land Address":"4710 UNIVERSITY DR S",
+    "Address":"4710 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeeny Addition",
+    "Legal Description":"Lot 4",
+    "Cost":"NA",
+    "Deed":"916059",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"BALCOM, JAMES R. & SHARON J.",
+    "Resold Prop":"No",
+    "Acres":0.69,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d85"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803396,46.810636 ]
+    },
+    "properties": {
+    "Land Address":"4520 UNIVERSITY DR S",
+    "Address":"4520 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeney Addition",
+    "Legal Description":"Lot 1, Blk 1",
+    "Cost":"NA",
+    "Deed":"916061",
+    "Deed Restricted":"No",
+    "Buyout Year":"1998",
+    "Grantor":"GREYWOLF, IVA & DAVID L. CLARK",
+    "Resold Prop":"No",
+    "Acres":0.54,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d86"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.797548,46.806605 ]
+    },
+    "properties": {
+    "Land Address":"950 49 AVE S",
+    "Address":"950 49 AVE S Fargo",
+    "Addition Name":"S36, T139N  R49W",
+    "Legal Description":"Tax Lot 42",
+    "Cost":"",
+    "Deed":"913686",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1998",
+    "Grantor":"LUNDE, DAVID A. & RENEE M.",
+    "Resold Prop":"No",
+    "Acres":0.85,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d87"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792639,46.927938 ]
+    },
+    "properties": {
+    "Land Address":"3731 10 ST N",
+    "Address":"3731 10 ST N Fargo",
+    "Addition Name":"Royal Oaks 2nd Addition",
+    "Legal Description":"Lot 6, Blk 1",
+    "Cost":"$119,400 ",
+    "Deed":"947784",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1999",
+    "Grantor":"CHIHOS, DANIEL G. & JULIE M.",
+    "Resold Prop":"No",
+    "Acres":0.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d88"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792533,46.927734 ]
+    },
+    "properties": {
+    "Land Address":"3729 10 ST N",
+    "Address":"3729 10 ST N Fargo",
+    "Addition Name":"Royal Oaks 2nd Addition",
+    "Legal Description":"Lot 7, Blk 1",
+    "Cost":"$120,700 ",
+    "Deed":"947320",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1999",
+    "Grantor":"ROSTEN, GREGORY A. & BARBARA J.",
+    "Resold Prop":"No",
+    "Acres":0.31,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d89"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792438,46.927472 ]
+    },
+    "properties": {
+    "Land Address":"3727 10 ST N",
+    "Address":"3727 10 ST N Fargo",
+    "Addition Name":"Royal Oaks 2nd Addition",
+    "Legal Description":"Lot 8, Blk 1",
+    "Cost":"$122,100 ",
+    "Deed":"948313",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"1999",
+    "Grantor":"SHIPLEY, GEORGE W. & TRUDY M.",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d90"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779898,46.857199 ]
+    },
+    "properties": {
+    "Land Address":"1527 SOUTH RIVER RD S",
+    "Address":"1527 SOUTH RIVER RD S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Part of 215 & 216",
+    "Cost":"NA",
+    "Deed":"934782",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"HERZENACH, GLENN J.",
+    "Resold Prop":"No",
+    "Acres":0.11,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d91"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779808,46.856772 ]
+    },
+    "properties": {
+    "Land Address":"201 LINDEN AVE S",
+    "Address":"201 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 220",
+    "Cost":"NA",
+    "Deed":"934234",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"BOWE, DAVID S. & CAROLYN J.",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d92"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779733,46.856292 ]
+    },
+    "properties": {
+    "Land Address":"202 LINDEN AVE S",
+    "Address":"202 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 298",
+    "Cost":"NA",
+    "Deed":"939118",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"ANDERSON / RUDRUD",
+    "Resold Prop":"No",
+    "Acres":0.11,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d93"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779733,46.856292 ]
+    },
+    "properties": {
+    "Land Address":"202 LINDEN AVE S",
+    "Address":"202 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 299",
+    "Cost":"NA",
+    "Deed":"939118",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"ANDERSON, DOUG & KRISTEN",
+    "Resold Prop":"No",
+    "Acres":0.11,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d94"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.78011,46.856507 ]
+    },
+    "properties": {
+    "Land Address":"210-214 LINDEN AVE S",
+    "Address":"210-214 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 295",
+    "Cost":"NA",
+    "Deed":"938721",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"NISSEN, JANE",
+    "Resold Prop":"Yes",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d95"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.780333,46.856294 ]
+    },
+    "properties": {
+    "Land Address":"216 LINDEN AVE S",
+    "Address":"216 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 295",
+    "Cost":"NA",
+    "Deed":"934232",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"BOWE, DAVID S. & CAROLYN J.",
+    "Resold Prop":"No",
+    "Acres":0.06,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d96"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.780333,46.856294 ]
+    },
+    "properties": {
+    "Land Address":"216 LINDEN AVE S",
+    "Address":"216 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 295",
+    "Cost":"NA",
+    "Deed":"938720",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"ANDERSON / RUDRUD",
+    "Resold Prop":"Yes",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d97"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.78033,46.856513 ]
+    },
+    "properties": {
+    "Land Address":"218 LINDEN AVE S",
+    "Address":"218 LINDEN AVE S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 296 & 297",
+    "Cost":"NA",
+    "Deed":"938720",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"NISSEN, JANE",
+    "Resold Prop":"Yes",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d98"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803447,46.810984 ]
+    },
+    "properties": {
+    "Land Address":"4510 UNIVERSITY DR S",
+    "Address":"4510 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritts 1st Addition",
+    "Legal Description":"1 & 2",
+    "Cost":"NA",
+    "Deed":"947726",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"RIVER KEEPERS",
+    "Resold Prop":"No",
+    "Acres":1.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d99"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.777118,46.882187 ]
+    },
+    "properties": {
+    "Land Address":"601 ELM ST N",
+    "Address":"601 ELM ST N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 1, Blk 1",
+    "Cost":"NA",
+    "Deed":"921473",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"HAGEMEISTER",
+    "Resold Prop":"No",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d100"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667453,45.546083 ]
+    },
+    "properties": {
+    "Land Address":"95 SOUTH TER N",
+    "Address":"95 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 24, Blk 1",
+    "Cost":"NA",
+    "Deed":"945594",
+    "Deed Restricted":"No",
+    "Buyout Year":"1999",
+    "Grantor":"SHOTWELL FLORAL, INC",
+    "Resold Prop":"No",
+    "Acres":15.81,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7928,46.928088 ]
+    },
+    "properties": {
+    "Land Address":"3733 10 ST N",
+    "Address":"3733 10 ST N Fargo",
+    "Addition Name":"Royal Oaks 2nd Addition",
+    "Legal Description":"Lot 5, Blk 1",
+    "Cost":"$118,300 ",
+    "Deed":"949409",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2000",
+    "Grantor":"YACKEL, ELEANOR L.",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d102"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803842,46.810124 ]
+    },
+    "properties": {
+    "Land Address":"4714 UNIVERSITY DR S",
+    "Address":"4714 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeney Addition",
+    "Legal Description":"Lot 3, Blk 1? less S. 21’",
+    "Cost":"NA",
+    "Deed":"955479",
+    "Deed Restricted":"No",
+    "Buyout Year":"2000",
+    "Grantor":"KELLY, MICHAEL",
+    "Resold Prop":"No",
+    "Acres":0.37,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d103"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776945,46.882098 ]
+    },
+    "properties": {
+    "Land Address":"9 LOWER TER N",
+    "Address":"9 LOWER TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lots 3, 4, part of 5, Blk 1 &NA",
+    "Cost":"",
+    "Deed":"948695",
+    "Deed Restricted":"No",
+    "Buyout Year":"2000",
+    "Grantor":"SHOTWELL FLORAL",
+    "Resold Prop":"No",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d104"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792769,46.927382 ]
+    },
+    "properties": {
+    "Land Address":"3725 10 ST N",
+    "Address":"3725 10 ST N Fargo",
+    "Addition Name":"Royal Oaks 2nd Addition",
+    "Legal Description":"Lot 9, Blk 1",
+    "Cost":"$122,000 ",
+    "Deed":"992349",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2001",
+    "Grantor":"CARTER, JOHNSON VIRGINIA & KEITH CARTE No",
+    "Resold Prop":"",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d105"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77623,46.899983 ]
+    },
+    "properties": {
+    "Land Address":"7 WOODLAND DR N",
+    "Address":"7 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Part of Lot 11, Blk 1",
+    "Cost":"NA",
+    "Deed":"990277",
+    "Deed Restricted":"No",
+    "Buyout Year":"2001",
+    "Grantor":"DOPPLER, MARJORIE J. FOR GLORIA WEST",
+    "Resold Prop":"No",
+    "Acres":0.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d106"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.812992,46.869044 ]
+    },
+    "properties": {
+    "Land Address":"2013 6 AVE S",
+    "Address":"2013 6 AVE S Fargo",
+    "Addition Name":"merland’s   ddition",
+    "Legal Description":"Lot 23, Blk 1",
+    "Cost":"$28,300.77 ",
+    "Deed":"1012673",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"BRUNS (BRUHNS), CHARLOTTE A. (TUHY)",
+    "Resold Prop":"No",
+    "Acres":0.15,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d107"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.812878,46.869455 ]
+    },
+    "properties": {
+    "Land Address":"1846 5 AVE S",
+    "Address":"1846 5 AVE S Fargo",
+    "Addition Name":"merland’s   ddition",
+    "Legal Description":"Lot 19, 20",
+    "Cost":"$63,250 ",
+    "Deed":"1036269",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"GILLUND , JERRY C.",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d108"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.814562,46.86906 ]
+    },
+    "properties": {
+    "Land Address":"2105 6 AVE S",
+    "Address":"2105 6 AVE S Fargo",
+    "Addition Name":"Egbert O’Neil & Haggart   dditi Lot 12 & 13, Blk 32",
+    "Legal Description":"",
+    "Cost":"$65,250 ",
+    "Deed":"1009155",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"QUALLEY, MICHAEL S & RHONDA R.",
+    "Resold Prop":"No",
+    "Acres":0.2,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d109"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.814332,46.86906 ]
+    },
+    "properties": {
+    "Land Address":"2101 6 AVE S",
+    "Address":"2101 6 AVE S Fargo",
+    "Addition Name":"Egbert O’Neil & Haggart   dditi E. 5’ Lot 13, all Lot 14, Blk",
+    "Legal Description":"",
+    "Cost":"$73,500 ",
+    "Deed":"1007578",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"WAGNER, DANIEL R. & DONNA J.",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d110"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.813063,46.868768 ]
+    },
+    "properties": {
+    "Land Address":"2017-2019 6 AVE S",
+    "Address":"2017-2019 6 AVE S Fargo",
+    "Addition Name":"merland’s   ddition",
+    "Legal Description":"Lot 21 & 22",
+    "Cost":"$103,232.92 ",
+    "Deed":"1010483",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"FUSS, TREVOR D. & BEVERLY J.",
+    "Resold Prop":"No",
+    "Acres":0.16,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.810295,46.870847 ]
+    },
+    "properties": {
+    "Land Address":"319-321 18 ST S",
+    "Address":"319-321 18 ST S Fargo",
+    "Addition Name":"rneson’s   ddition",
+    "Legal Description":"S. 75.57’ Lot 9 & 10, S 1/2",
+    "Cost":"$120,967.54 ",
+    "Deed":"1006970",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"MAHAR, JOHN J. & PEGGY L.",
+    "Resold Prop":"No",
+    "Acres":0.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d112"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.813386,46.868488 ]
+    },
+    "properties": {
+    "Land Address":"2114 6 AVE S",
+    "Address":"2114 6 AVE S Fargo",
+    "Addition Name":"Hilleboe Terrace Addition",
+    "Legal Description":"Lot 3 & 4, Blk 13",
+    "Cost":"$136,463.05 ",
+    "Deed":"1007579",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"SLEEPER, DAVID W.",
+    "Resold Prop":"No",
+    "Acres":0.3,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d113"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.819981,46.863496 ]
+    },
+    "properties": {
+    "Land Address":"2501 12 AVE S",
+    "Address":"2501 12 AVE S Fargo",
+    "Addition Name":"Centrac Addtion",
+    "Legal Description":"Lot 6, Blk 3",
+    "Cost":"$638,032 ",
+    "Deed":"1006351",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2002",
+    "Grantor":"EVEANN LIMITED PARTNERSHIP (DON-EARL  No",
+    "Resold Prop":"",
+    "Acres":2.67,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d114"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778165,46.887842 ]
+    },
+    "properties": {
+    "Land Address":"1029 OAK ST N",
+    "Address":"1029 OAK ST N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"S 8 FT OF 4 & ALL OF  5 & ",
+    "Cost":"$87,000 ",
+    "Deed":"1049520",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"GARTNER, JUDY L. (OLSON) & RODNEY L.",
+    "Resold Prop":"No",
+    "Acres":0.2,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d115"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779133,46.916422 ]
+    },
+    "properties": {
+    "Land Address":"2922 2 ST N",
+    "Address":"2922 2 ST N Fargo",
+    "Addition Name":"Edgewood First Addition",
+    "Legal Description":"Lot 2, Blk 11",
+    "Cost":"$104,683.89 ",
+    "Deed":"982760",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"BAKER, DOUGLAS D. & DEBRA M.",
+    "Resold Prop":"No",
+    "Acres":0.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d116"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778412,46.916413 ]
+    },
+    "properties": {
+    "Land Address":"2921 2 ST N",
+    "Address":"2921 2 ST N Fargo",
+    "Addition Name":"Edgewood First Addition",
+    "Legal Description":"Lot 6, Blk 13",
+    "Cost":"$114,192.72 ",
+    "Deed":"984637",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"KOUNOVSKY, BRIAN W. & KRISTEN J.",
+    "Resold Prop":"No",
+    "Acres":0.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d117"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779136,46.916632 ]
+    },
+    "properties": {
+    "Land Address":"2926 2 ST N",
+    "Address":"2926 2 ST N Fargo",
+    "Addition Name":"Edgewood First Addition",
+    "Legal Description":"Lot 1, Blk 11",
+    "Cost":"$117,750 ",
+    "Deed":"979832",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"ECKRE, SHAWN & CHERYL J.",
+    "Resold Prop":"No",
+    "Acres":0.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d118"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.82245,46.883218 ]
+    },
+    "properties": {
+    "Land Address":"27 SOUTH TER N",
+    "Address":"27 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 7, Blk 1",
+    "Cost":"$125,000 ",
+    "Deed":"1051980",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"LANE, HARVEY",
+    "Resold Prop":"No",
+    "Acres":0.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d119"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778407,46.916631 ]
+    },
+    "properties": {
+    "Land Address":"2925 2 ST N",
+    "Address":"2925 2 ST N Fargo",
+    "Addition Name":"Edgewood First Addition",
+    "Legal Description":"Lot 5, Blk 13",
+    "Cost":"$128,085 ",
+    "Deed":"982761",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2003",
+    "Grantor":"ECKLUND, ORVIS W. & BONNIE C.",
+    "Resold Prop":"No",
+    "Acres":0.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d120"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778168,46.887975 ]
+    },
+    "properties": {
+    "Land Address":"1033 OAK ST N",
+    "Address":"1033 OAK ST N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"4, LESS S 8 FT THEREOF &",
+    "Cost":"$59,000 ",
+    "Deed":"1113243",
+    "Deed Restricted":"Yes",
+    "Buyout Year":"2004",
+    "Grantor":"FISKE, DENISE L.",
+    "Resold Prop":"No",
+    "Acres":0.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803805,46.805583 ]
+    },
+    "properties": {
+    "Land Address":"4926 UNIVERSITY DR S",
+    "Address":"4926 UNIVERSITY DR S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"NA",
+    "Cost":"NA",
+    "Deed":"1113874",
+    "Deed Restricted":"No",
+    "Buyout Year":"2004",
+    "Grantor":"TELLINGHUISEN, MICHAEL, & DEBRA",
+    "Resold Prop":"No",
+    "Acres":1.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d122"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772397,46.883633 ]
+    },
+    "properties": {
+    "Land Address":"96 NORTH TER N",
+    "Address":"96 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"L27, Blk 4",
+    "Cost":"NA",
+    "Deed":"1141255",
+    "Deed Restricted":"No",
+    "Buyout Year":"2005",
+    "Grantor":"OAK GROVE LUTHERAN SCHOOL",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d123"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772589,46.883667 ]
+    },
+    "properties": {
+    "Land Address":"94 NORTH TER N",
+    "Address":"94 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addtion",
+    "Legal Description":"Lot",
+    "Cost":"NA",
+    "Deed":"1141255",
+    "Deed Restricted":"No",
+    "Buyout Year":"2005",
+    "Grantor":"OAK GROVE LUTHERAN SCHOOL",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d124"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803123,46.812642 ]
+    },
+    "properties": {
+    "Land Address":"4410 UNIVERSITY DR S",
+    "Address":"4410 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritt’s 1st Subdivision",
+    "Legal Description":"Lots 7 & 8",
+    "Cost":"$252,000 ",
+    "Deed":"1215048",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"SWANSON, LELAND A,",
+    "Resold Prop":"No",
+    "Acres":1.74,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d125"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803178,46.806157 ]
+    },
+    "properties": {
+    "Land Address":"1218 49 AVE S",
+    "Address":"1218 49 AVE S Fargo",
+    "Addition Name":"Maiers 1st Subd",
+    "Legal Description":"Lot 1, W 20 of 2, Blk 3",
+    "Cost":"$260,377.73 ",
+    "Deed":"1215047",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"KINGSLEY, TRUMAN & BECKY",
+    "Resold Prop":"No",
+    "Acres":1.12,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d126"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77531,46.903067 ]
+    },
+    "properties": {
+    "Land Address":"101 WOODLAND DR N",
+    "Address":"101 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 5, Blk 4",
+    "Cost":"NA",
+    "Deed":"1212125",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"WASCHE, MARGARET F.",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d127"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776083,46.899304 ]
+    },
+    "properties": {
+    "Land Address":"1607 ELM ST N",
+    "Address":"1607 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 7, Blk 1",
+    "Cost":"NA",
+    "Deed":"1194480",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"WEISENBORN, DENNIS P & DIANE J.",
+    "Resold Prop":"No",
+    "Acres":0.76,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d128"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775677,46.899796 ]
+    },
+    "properties": {
+    "Land Address":"19 WOODLAND DR N",
+    "Address":"19 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 13, Blk 1",
+    "Cost":"NA",
+    "Deed":"1194592",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"MCCOURT, MARK E. & BARBARA B.",
+    "Resold Prop":"No",
+    "Acres":0.45,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d129"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775374,46.899616 ]
+    },
+    "properties": {
+    "Land Address":"25 WOODLAND DR N",
+    "Address":"25 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 14, Blk 1",
+    "Cost":"NA",
+    "Deed":"1193908",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"LEVERSON, CHESTER M. & BETTY L",
+    "Resold Prop":"No",
+    "Acres":0.83,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d130"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773916,46.90111 ]
+    },
+    "properties": {
+    "Land Address":"55 WOODLAND DR N",
+    "Address":"55 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 21, Blk 1",
+    "Cost":"NA",
+    "Deed":"1193909",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"BUSHELL, ELIZABETH D.",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d131"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.773969,46.901343 ]
+    },
+    "properties": {
+    "Land Address":"63 WOODLAND DR N",
+    "Address":"63 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 22, Blk 1",
+    "Cost":"NA",
+    "Deed":"1194591",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"HANSON, CRAIG H. & CYNTHIA L",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d132"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.772311,46.901064 ]
+    },
+    "properties": {
+    "Land Address":"77 WOODLAND DR N",
+    "Address":"77 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Blk 5",
+    "Cost":"NA",
+    "Deed":"1201379",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"TIED TO THE ADJOINING PROPERTIES",
+    "Resold Prop":"No",
+    "Acres":11.84,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d133"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.775942,46.899884 ]
+    },
+    "properties": {
+    "Land Address":"15 WOODLAND DR N",
+    "Address":"15 WOODLAND DR N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot: E 3 Ft of 11 & All of 12NA",
+    "Cost":"",
+    "Deed":"1197740",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"FORTUNE, DARLENE SCHMIDT (STEVEN MAA No",
+    "Resold Prop":"",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d134"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776229,46.89911 ]
+    },
+    "properties": {
+    "Land Address":"1601 ELM ST N",
+    "Address":"1601 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot: N 4 Ft of 5 & all of 6, BNA",
+    "Cost":"",
+    "Deed":"1190536",
+    "Deed Restricted":"No",
+    "Buyout Year":"2007",
+    "Grantor":"BROWN, JEFFERY D. & CULLEN, CHERYL L.",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d135"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802989,46.809415 ]
+    },
+    "properties": {
+    "Land Address":"4730 UNIVERSITY DR S",
+    "Address":"4730 UNIVERSITY DR S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tract 3 Unplatted",
+    "Cost":"$15,410.00 ",
+    "Deed":"1240590",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"BECK, GEARLD D. & JEAN A.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d136"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.861581,46.818422 ]
+    },
+    "properties": {
+    "Land Address":"45 SOUTH TER N",
+    "Address":"45 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 12, Blk 1",
+    "Cost":"$93,000 ",
+    "Deed":"1261587",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"HERMANSON, LAYNE C. & SCHARLOTTA",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802501,46.809813 ]
+    },
+    "properties": {
+    "Land Address":"4716 UNIVERSITY DR S",
+    "Address":"4716 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeeny Addition",
+    "Legal Description":"3 Tracts in Unplatted Sout",
+    "Cost":"$191,000 ",
+    "Deed":"1240590",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"BECK, GEARLD D. & JEAN A.",
+    "Resold Prop":"No",
+    "Acres":1.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d138"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803315,46.810443 ]
+    },
+    "properties": {
+    "Land Address":"4600 UNIVERSITY DR S",
+    "Address":"4600 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeney Addition",
+    "Legal Description":"Lot 2, Blk 1",
+    "Cost":"$195,900 ",
+    "Deed":"1252436",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"RANDELL, ALAN J. AND SHEILA M.",
+    "Resold Prop":"No",
+    "Acres":0.64,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d139"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803825,46.806219 ]
+    },
+    "properties": {
+    "Land Address":"4918 UNIVERSITY DR S",
+    "Address":"4918 UNIVERSITY DR S Fargo",
+    "Addition Name":"Sweeney Addition",
+    "Legal Description":"Tax Lot 45",
+    "Cost":"$200,000 ",
+    "Deed":"1227356",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"PRISCHMANN, DARRYL D. & SANDRA",
+    "Resold Prop":"No",
+    "Acres":0.87,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d140"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.80346,46.81195 ]
+    },
+    "properties": {
+    "Land Address":"4414 UNIVERSITY DR S",
+    "Address":"4414 UNIVERSITY DR S Fargo",
+    "Addition Name":"Burritt’s 1st Subdivision",
+    "Legal Description":"Lot 5",
+    "Cost":"$235,000 ",
+    "Deed":"1226386",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"TUCKER, JOANNE",
+    "Resold Prop":"No",
+    "Acres":0.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d141"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802767,46.80625 ]
+    },
+    "properties": {
+    "Land Address":"1210 49 AVE S",
+    "Address":"1210 49 AVE S Fargo",
+    "Addition Name":"Maiers 1st Subd",
+    "Legal Description":"E80 of Lot 2 W 10 of Lot 3",
+    "Cost":"$244,000 ",
+    "Deed":"1219125",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"BENSON, MICHAEL L. & JAN CORNEJO",
+    "Resold Prop":"No",
+    "Acres":0.71,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d142"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802402,46.806315 ]
+    },
+    "properties": {
+    "Land Address":"1202 49 AVE S",
+    "Address":"1202 49 AVE S Fargo",
+    "Addition Name":"Maiers 1st Subd",
+    "Legal Description":"Lot: E 90 Ft of 3 Blk 3",
+    "Cost":"$320,000 ",
+    "Deed":"1244948",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"LARSON, GARY R. & VILAH JO",
+    "Resold Prop":"No",
+    "Acres":0.61,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d143"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801301,46.814149 ]
+    },
+    "properties": {
+    "Land Address":"1217 EL CANO DR S",
+    "Address":"1217 EL CANO DR S Fargo",
+    "Addition Name":"S36, T139N R49W",
+    "Legal Description":"NE1/4  Gvt Lot 2",
+    "Cost":"$342,000 ",
+    "Deed":"1260608",
+    "Deed Restricted":"No",
+    "Buyout Year":"2008",
+    "Grantor":"HELBLING, DARYL L & DEBRA M.",
+    "Resold Prop":"No",
+    "Acres":4.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d144"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774442,46.884117 ]
+    },
+    "properties": {
+    "Land Address":"42 NORTH TER N",
+    "Address":"42 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Part of Lot 17, Blk 4",
+    "Cost":"$69,000 ",
+    "Deed":"1280542",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"CLEARY, TIM & MARCIA",
+    "Resold Prop":"No",
+    "Acres":0.15,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d145"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79237,46.938647 ]
+    },
+    "properties": {
+    "Land Address":"4477 RIVERWOOD DR N",
+    "Address":"4477 RIVERWOOD DR N Fargo",
+    "Addition Name":"Votava 2007 Addition",
+    "Legal Description":"Part of Lot 1, BLk 1",
+    "Cost":"$72,500 ",
+    "Deed":"1279717",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"ALBRECHT, JAY M. & KRISTY L.",
+    "Resold Prop":"No",
+    "Acres":0.53,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d146"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.869978,46.833439 ]
+    },
+    "properties": {
+    "Land Address":"49 SOUTH TER N",
+    "Address":"49 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 13, Blk 1",
+    "Cost":"$75,000 ",
+    "Deed":"1280538",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"LANE, MARK & ELISIA",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d147"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774008,46.884254 ]
+    },
+    "properties": {
+    "Land Address":"44 NORTH TER N",
+    "Address":"44 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 18, Blk 4",
+    "Cost":"$86,400 ",
+    "Deed":"1280541",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"CLEARY, TIM & MARCIA",
+    "Resold Prop":"No",
+    "Acres":0.3,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d148"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.851052,46.893844 ]
+    },
+    "properties": {
+    "Land Address":"41 SOUTH TER N",
+    "Address":"41 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 11, Blk 1",
+    "Cost":"$95,000 ",
+    "Deed":"1279319",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"MIHLBAUER, GEORGE & ARLETTE",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d149"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.793172,46.940057 ]
+    },
+    "properties": {
+    "Land Address":"4633 RIVERWOOD DR N",
+    "Address":"4633 RIVERWOOD DR N Fargo",
+    "Addition Name":"Riverwood 1922 1st Addition",
+    "Legal Description":"Lot 5, Blk 2",
+    "Cost":"$110,109.98 ",
+    "Deed":"1275260",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"SUCH, RYAN L. & JENNIFER R.",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d150"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667702,45.546084 ]
+    },
+    "properties": {
+    "Land Address":"135 SOUTH TER N",
+    "Address":"135 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot 28, Blk 1",
+    "Cost":"$120,000 ",
+    "Deed":"1279483",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"POITRAS, STEVE & SUE",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d151"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.780422,46.857778 ]
+    },
+    "properties": {
+    "Land Address":"1522 SOUTH RIVER RD S",
+    "Address":"1522 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"32 & part of 31, Blk 7",
+    "Cost":"$155,000 ",
+    "Deed":"1280540",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"SYVERSON, SHIRLEY J.",
+    "Resold Prop":"No",
+    "Acres":0.39,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d152"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802175,46.807158 ]
+    },
+    "properties": {
+    "Land Address":"1201 49 AVE S",
+    "Address":"1201 49 AVE S Fargo",
+    "Addition Name":"Maiers 1st Subd",
+    "Legal Description":"Lots 4, Blk 2",
+    "Cost":"$180,000 ",
+    "Deed":"1275934",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"MILLER, LARRY P.& ELIZABETH L.",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d153"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801458,46.807187 ]
+    },
+    "properties": {
+    "Land Address":"1135 49 AVE S",
+    "Address":"1135 49 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tax Lot 24",
+    "Cost":"$210,000 ",
+    "Deed":"1276515",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"SCHULTZ, ROBERT A. & JEANNE M.",
+    "Resold Prop":"No",
+    "Acres":0.4,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d154"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801808,46.807164 ]
+    },
+    "properties": {
+    "Land Address":"1141 49 AVE S",
+    "Address":"1141 49 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tax Lot 23",
+    "Cost":"$228,000 ",
+    "Deed":"1277223",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"KOUDELA, FRANK R. & RHODA M.",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d155"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.784229,46.860247 ]
+    },
+    "properties": {
+    "Land Address":"1342 SOUTH RIVER RD S",
+    "Address":"1342 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 2 & 3, Less Park, Blk 7",
+    "Cost":"$230,000 ",
+    "Deed":"1276172",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"DANZ, GREGORY C. & RENEE E.",
+    "Resold Prop":"No",
+    "Acres":0.56,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d156"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.784318,46.860443 ]
+    },
+    "properties": {
+    "Land Address":"1334 SOUTH RIVER RD S",
+    "Address":"1334 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"S 10 Ft of 39 & All of 1, Blk",
+    "Cost":"$235,000 ",
+    "Deed":"1281947",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"NELSON, KREIG A.",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d157"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801075,46.807186 ]
+    },
+    "properties": {
+    "Land Address":"1121 49 AVE S",
+    "Address":"1121 49 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Tax Lot 25",
+    "Cost":"$245,000 ",
+    "Deed":"1275933",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"HOUGLUM, BRUCE M. & DIANE C.",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.796118,46.824287 ]
+    },
+    "properties": {
+    "Land Address":"3626 RIVER DR S",
+    "Address":"3626 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 11, Blk 5",
+    "Cost":"$285,000 ",
+    "Deed":"1276867",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"TOWERS, BRUCE L & CRYSTAL",
+    "Resold Prop":"No",
+    "Acres":3.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d159"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795796,46.824424 ]
+    },
+    "properties": {
+    "Land Address":"3610 RIVER DR S",
+    "Address":"3610 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 9, Blk 5",
+    "Cost":"$305,000 ",
+    "Deed":"1280413",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"ANDERSON, WAYNE T. & PAMELA K",
+    "Resold Prop":"No",
+    "Acres":2.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d160"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.788593,46.834359 ]
+    },
+    "properties": {
+    "Land Address":"510 SOUTHWOOD DR S",
+    "Address":"510 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 35, 36",
+    "Cost":"$370,000 ",
+    "Deed":"1279124",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"HARRIET B. GREVING TRUST",
+    "Resold Prop":"No",
+    "Acres":0.76,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d161"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779813,46.855824 ]
+    },
+    "properties": {
+    "Land Address":"201 LINDENWOOD DR S",
+    "Address":"201 LINDENWOOD DR S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 300, 301",
+    "Cost":"$391,440.11 ",
+    "Deed":"1281189",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"BURD, RONALD M. & KIM M.",
+    "Resold Prop":"No",
+    "Acres":0.34,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d162"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792379,46.834938 ]
+    },
+    "properties": {
+    "Land Address":"814 SOUTHWOOD DR S",
+    "Address":"814 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"SELY 2 1/2 FT OF 18 & ALL",
+    "Cost":"$400,000 ",
+    "Deed":"1279580",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"OLSON, JAY M.  & RITA E",
+    "Resold Prop":"No",
+    "Acres":0.96,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d163"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789898,46.834704 ]
+    },
+    "properties": {
+    "Land Address":"618 SOUTHWOOD DR S",
+    "Address":"618 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 30",
+    "Cost":"$430,000 ",
+    "Deed":"1279718",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"NGUYEN, SON T. & YVETTE M",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d164"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79624,46.824235 ]
+    },
+    "properties": {
+    "Land Address":"3632 RIVER DR S",
+    "Address":"3632 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 12, Blk 5",
+    "Cost":"$435,000 ",
+    "Deed":"1276070",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"THORSON, THOMAS R & PATRICIA L.",
+    "Resold Prop":"No",
+    "Acres":3.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d165"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795957,46.824356 ]
+    },
+    "properties": {
+    "Land Address":"3618 RIVER DR S",
+    "Address":"3618 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 10, Blk 5",
+    "Cost":"$540,000 ",
+    "Deed":"1284761",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"POYNTER, CHARLES D & GAIL G.",
+    "Resold Prop":"No",
+    "Acres":2.89,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d166"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.78741,46.83362 ]
+    },
+    "properties": {
+    "Land Address":"503 SOUTHWOOD DR S",
+    "Address":"503 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 40",
+    "Cost":"$700,000 ",
+    "Deed":"1280092",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"HAWKEN, CHARLES H & KATHLEEN K.",
+    "Resold Prop":"No",
+    "Acres":0.91,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d167"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792673,46.831058 ]
+    },
+    "properties": {
+    "Land Address":"701 HARWOOD DR S",
+    "Address":"701 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th Addition",
+    "Legal Description":"Lot 1, LESS NWLY 20 FT &",
+    "Cost":"$1,150,000 ",
+    "Deed":"1284762",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"MCCULLEY, JAMES W. & MARGO C.",
+    "Resold Prop":"No",
+    "Acres":1.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d168"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.779838,46.857652 ]
+    },
+    "properties": {
+    "Land Address":"1528 SOUTH RIVER RD S",
+    "Address":"1528 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 33 thru 37, Less Park,",
+    "Cost":"NA",
+    "Deed":"1280540",
+    "Deed Restricted":"No",
+    "Buyout Year":"2009",
+    "Grantor":"SYVERSON, SHIRLEY J.",
+    "Resold Prop":"No",
+    "Acres":0.7,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d169"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.787433,46.862104 ]
+    },
+    "properties": {
+    "Land Address":"432 12 AVE S",
+    "Address":"432 12 AVE S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 2, Blk 9",
+    "Cost":"$80,000 ",
+    "Deed":"1311785",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"HEDSTROM, BRADY",
+    "Resold Prop":"No",
+    "Acres":0.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d170"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.77461,46.884286 ]
+    },
+    "properties": {
+    "Land Address":"723 NORTH RIVER RD N",
+    "Address":"723 NORTH RIVER RD N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"$89,000 ",
+    "Deed":"884450",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"HUGHES, PHILIP",
+    "Resold Prop":"No",
+    "Acres":0.2,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d171"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.787633,46.862105 ]
+    },
+    "properties": {
+    "Land Address":"434 12 AVE S",
+    "Address":"434 12 AVE S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 1, Blk 9",
+    "Cost":"$106,000 ",
+    "Deed":"1311380",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"NISSEN, AARON",
+    "Resold Prop":"No",
+    "Acres":0.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d172"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778168,46.888096 ]
+    },
+    "properties": {
+    "Land Address":"1037 OAK ST N",
+    "Address":"1037 OAK ST N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"3 & 1/2 VAC ALLEY, Block",
+    "Cost":"$118,000 ",
+    "Deed":"1290090",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"AUWARTER, COLLIN",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d173"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79278,46.901135 ]
+    },
+    "properties": {
+    "Land Address":"17 SOUTH TER N",
+    "Address":"17 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Part Lot 5, Blk 1",
+    "Cost":"$152,000 ",
+    "Deed":"1303413",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"LUCERO, STEVEN W. & CHERYL M.",
+    "Resold Prop":"No",
+    "Acres":0.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d174"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.816667,46.880254 ]
+    },
+    "properties": {
+    "Land Address":"23 SOUTH TER N",
+    "Address":"23 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"$164,000 ",
+    "Deed":"1304817",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"SMITH, ARRON M. & DOREEN I.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d175"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.840252,46.955677 ]
+    },
+    "properties": {
+    "Land Address":"37 SOUTH TER N",
+    "Address":"37 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"$164,000 ",
+    "Deed":"1308817",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"GARZOLI, JOSH & MEYERS, MELISSA",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d176"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7802,46.85589 ]
+    },
+    "properties": {
+    "Land Address":"233 LINDENWOOD DR S",
+    "Address":"233 LINDENWOOD DR S Fargo",
+    "Addition Name":"Belmont Park Addition",
+    "Legal Description":"Lot 302, 303, 304",
+    "Cost":"$195,000 ",
+    "Deed":"1290024",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"NOAH, ANDREW L. B.",
+    "Resold Prop":"No",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d177"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799811,46.808786 ]
+    },
+    "properties": {
+    "Land Address":"1141 48 AVE S",
+    "Address":"1141 48 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Lot 3, Blk 2",
+    "Cost":"$200,000 ",
+    "Deed":"1304599",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"C & L PROPERTIES, LLC",
+    "Resold Prop":"No",
+    "Acres":16.54,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d178"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.784416,46.860618 ]
+    },
+    "properties": {
+    "Land Address":"1330 SOUTH RIVER RD S",
+    "Address":"1330 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Additon",
+    "Legal Description":"Lot 39, Blk 7",
+    "Cost":"$205,000 ",
+    "Deed":"1303645",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"ORMBRECK, HARLAN K & SHARON K",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.777568,46.888293 ]
+    },
+    "properties": {
+    "Land Address":"1 11 AVE N",
+    "Address":"1 11 AVE N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"Lot 23 & 24 & 1/2 Vac Alle",
+    "Cost":"$212,750 ",
+    "Deed":"1289863",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"EULL, NICHOLAS ALBERT",
+    "Resold Prop":"No",
+    "Acres":0.33,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d180"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.78773,46.834803 ]
+    },
+    "properties": {
+    "Land Address":"517 SOUTHWOOD DR S",
+    "Address":"517 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 43",
+    "Cost":"$280,000 ",
+    "Deed":"1290330",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"BRIGGS, WAYNE A. & KRISTIN D.",
+    "Resold Prop":"No",
+    "Acres":0.46,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d181"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791878,46.834809 ]
+    },
+    "properties": {
+    "Land Address":"810 SOUTHWOOD DR S",
+    "Address":"810 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 20",
+    "Cost":"$290,000 ",
+    "Deed":"1303759",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"GORMAN, STEVEN T.  & MARY K.",
+    "Resold Prop":"No",
+    "Acres":1.1,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d182"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791027,46.835115 ]
+    },
+    "properties": {
+    "Land Address":"718 SOUTHWOOD DR S",
+    "Address":"718 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 24",
+    "Cost":"$300,000 ",
+    "Deed":"1305988",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"THOMAS, PAULA S.",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d183"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795634,46.824493 ]
+    },
+    "properties": {
+    "Land Address":"3602 RIVER DR S",
+    "Address":"3602 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 8, Blk 5",
+    "Cost":"$334,000 ",
+    "Deed":"1288470",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"BLOCK, TERRY N. & ILENE LEE",
+    "Resold Prop":"No",
+    "Acres":1.78,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d184"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790254,46.834834 ]
+    },
+    "properties": {
+    "Land Address":"706 SOUTHWOOD DR S",
+    "Address":"706 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 27",
+    "Cost":"$450,000 ",
+    "Deed":"1304816",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"BALDWIN, JERRY J. & JILL P.",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d185"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.818294,46.810415 ]
+    },
+    "properties": {
+    "Land Address":"4603 ROSE CREEK PKWY S",
+    "Address":"4603 ROSE CREEK PKWY S Fargo",
+    "Addition Name":"Rose Creek 4th Additon",
+    "Legal Description":"Lot 5, Blk 1",
+    "Cost":"$510,000 ",
+    "Deed":"1313865",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"CARCOANA, CLAUDIA & JALIL, SAJID",
+    "Resold Prop":"No",
+    "Acres":0.62,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d186"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791529,46.830563 ]
+    },
+    "properties": {
+    "Land Address":"619 HARWOOD DR S",
+    "Address":"619 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th Addition Lot 4, Blk 1",
+    "Legal Description":"",
+    "Cost":"$533,720 ",
+    "Deed":"1333122",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"JOHNSON, DOUG & JO",
+    "Resold Prop":"No",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d187"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.825038,46.814386 ]
+    },
+    "properties": {
+    "Land Address":"4332 TIMBERLINE DR S",
+    "Address":"4332 TIMBERLINE DR S Fargo",
+    "Addition Name":"Timberline Addition",
+    "Legal Description":"Lot 25, Blk 3",
+    "Cost":"$645,000 ",
+    "Deed":"1290091",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"BUTLER, FRANCIS J.",
+    "Resold Prop":"Yes",
+    "Acres":0.64,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d188"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.81371,46.814606 ]
+    },
+    "properties": {
+    "Land Address":"2130 STERLING ROSE LN S",
+    "Address":"2130 STERLING ROSE LN S Fargo",
+    "Addition Name":"Rose Creek 2nd Addition",
+    "Legal Description":"Part of Lot 8, Blk 1",
+    "Cost":"$685,000 ",
+    "Deed":"1289985",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"CHALASANI, NAGESWARARAO & YADLAPALL No",
+    "Resold Prop":"",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d189"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.817661,46.810387 ]
+    },
+    "properties": {
+    "Land Address":"4602 ROSE CREEK PKWY S",
+    "Address":"4602 ROSE CREEK PKWY S Fargo",
+    "Addition Name":"Rose Creek 4th Additon",
+    "Legal Description":"Lot 6, Blk 1",
+    "Cost":"$719,000 ",
+    "Deed":"1309748",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"WENSMAN, JAMES M & JANELL M",
+    "Resold Prop":"No",
+    "Acres":0.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d190"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791383,46.835245 ]
+    },
+    "properties": {
+    "Land Address":"806 SOUTHWOOD DR S",
+    "Address":"806 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 21",
+    "Cost":"$719,000 ",
+    "Deed":"1309956",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"RUHLAND, DAVID JOSEPH & ALISON TALAFO",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d191"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.785112,46.917218 ]
+    },
+    "properties": {
+    "Land Address":"31 SOUTH TER N",
+    "Address":"31 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"NA",
+    "Deed":"1305989",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"SAX, DANA L. & CHERYL L.",
+    "Resold Prop":"No",
+    "Acres":0.24,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d192"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774385,46.922309 ]
+    },
+    "properties": {
+    "Land Address":"33-35 SOUTH TER N",
+    "Address":"33-35 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"NA",
+    "Deed":"1303973",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"BDH PROPERTIES, LLP",
+    "Resold Prop":"No",
+    "Acres":0.25,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d193"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.774138,46.88439 ]
+    },
+    "properties": {
+    "Land Address":"40 NORTH TER N",
+    "Address":"40 NORTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"NA",
+    "Deed":"1049925",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"LUDWIG, ULYSSES",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d194"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792711,46.932767 ]
+    },
+    "properties": {
+    "Land Address":"3953 10 ST N",
+    "Address":"3953 10 ST N Fargo",
+    "Addition Name":"Red River Addition",
+    "Legal Description":"Lot 4 & 5, Blk Replat of 2",
+    "Cost":"NA",
+    "Deed":"1303645",
+    "Deed Restricted":"No",
+    "Buyout Year":"2010",
+    "Grantor":"OMBRECK, HARLAN K. & SHARON K.",
+    "Resold Prop":"No",
+    "Acres":1.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d195"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778169,46.888228 ]
+    },
+    "properties": {
+    "Land Address":"1041 OAK ST N",
+    "Address":"1041 OAK ST N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"Lot 2, Blk 8",
+    "Cost":"$107,000 ",
+    "Deed":"1320602",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"HEIDT, CLIFFORD E & DOROTHY K",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d196"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778171,46.888361 ]
+    },
+    "properties": {
+    "Land Address":"1045 OAK ST N",
+    "Address":"1045 OAK ST N Fargo",
+    "Addition Name":"Hectors Addition",
+    "Legal Description":"Lot 1, Blk 8",
+    "Cost":"$109,000 ",
+    "Deed":"1320933",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"SMITH, DUANE J & CAMILLE E",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d197"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.78239,46.858776 ]
+    },
+    "properties": {
+    "Land Address":"1450 SOUTH RIVER RD S",
+    "Address":"1450 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 18, Blk 7",
+    "Cost":"$165,000 ",
+    "Deed":"1319339",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"EKSTROM, MARY O",
+    "Resold Prop":"No",
+    "Acres":0.5,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.825625,46.788189 ]
+    },
+    "properties": {
+    "Land Address":"2816 64 AVE S",
+    "Address":"2816 64 AVE S Fargo",
+    "Addition Name":"South Haven Addition",
+    "Legal Description":"",
+    "Cost":"$170,000 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"DAVIDSON, BEN",
+    "Resold Prop":"No",
+    "Acres":2.07,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d199"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.782158,46.858647 ]
+    },
+    "properties": {
+    "Land Address":"1454 SOUTH RIVER RD S",
+    "Address":"1454 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 20, Blk 7",
+    "Cost":"$200,000 ",
+    "Deed":"1319129",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"GOODKIN, JACQUELINE",
+    "Resold Prop":"No",
+    "Acres":0.51,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.782622,46.858906 ]
+    },
+    "properties": {
+    "Land Address":"1442 SOUTH RIVER RD S",
+    "Address":"1442 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 17, Blk 7",
+    "Cost":"$255,000 ",
+    "Deed":"1319397",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"PAULSRUD, GARY A & JENNIFER E",
+    "Resold Prop":"No",
+    "Acres":0.48,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d201"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801371,46.818704 ]
+    },
+    "properties": {
+    "Land Address":"3920 RIVER DR S",
+    "Address":"3920 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 21, Blk 6",
+    "Cost":"$270,000 ",
+    "Deed":"1319128",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"LANEY, DALLAS J & KATHERINE M",
+    "Resold Prop":"No",
+    "Acres":0.91,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d202"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801302,46.799099 ]
+    },
+    "properties": {
+    "Land Address":"1118 55 AVE S",
+    "Address":"1118 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 12, Blk 1",
+    "Cost":"$273,680 ",
+    "Deed":"1335655",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"LAHREN, MICHELLE",
+    "Resold Prop":"No",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799593,46.801016 ]
+    },
+    "properties": {
+    "Land Address":"5400 11 ST S",
+    "Address":"5400 11 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 23, Blk 1",
+    "Cost":"$282,040 ",
+    "Deed":"1337132",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"BOE, STEVEN J. & JULIE R.",
+    "Resold Prop":"No",
+    "Acres":0.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d204"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.80159,46.798942 ]
+    },
+    "properties": {
+    "Land Address":"1124 55 AVE S",
+    "Address":"1124 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 11, Blk 1",
+    "Cost":"$290,000 ",
+    "Deed":"1340425",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"KELLER, BRADLEY J & SYNTHIA L",
+    "Resold Prop":"No",
+    "Acres":0.36,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.828516,46.788677 ]
+    },
+    "properties": {
+    "Land Address":"3006 64 AVE S",
+    "Address":"3006 64 AVE S Fargo",
+    "Addition Name":"Unplatted",
+    "Legal Description":"",
+    "Cost":"$295,000 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"NORDHOUGEN, BRYAN & DIANE",
+    "Resold Prop":"No",
+    "Acres":4.67,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801339,46.818395 ]
+    },
+    "properties": {
+    "Land Address":"3926 RIVER DR S",
+    "Address":"3926 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 22, Blk 6",
+    "Cost":"$315,000 ",
+    "Deed":"1319638",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"VINYCH, JOHN V",
+    "Resold Prop":"No",
+    "Acres":1.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d207"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801933,46.799046 ]
+    },
+    "properties": {
+    "Land Address":"1130 55 AVE S",
+    "Address":"1130 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 10, Blk 1",
+    "Cost":"$318,120 ",
+    "Deed":"1333394",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"RACEK, FRANK L. & MARGARET RICE-RACEK",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d208"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800223,46.798947 ]
+    },
+    "properties": {
+    "Land Address":"1100 55 AVE S",
+    "Address":"1100 55 AVE S Fargo",
+    "Addition Name":"River Vili Additon",
+    "Legal Description":"Lot 15, Blk 1",
+    "Cost":"$325,000 ",
+    "Deed":"1318663",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"BRIGGS, MICHAEL S",
+    "Resold Prop":"No",
+    "Acres":0.63,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d209"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798999,46.799156 ]
+    },
+    "properties": {
+    "Land Address":"5436 11  ST S",
+    "Address":"5436 11  ST S Fargo",
+    "Addition Name":"River Vili Additon",
+    "Legal Description":"Lot 17, Blk 1",
+    "Cost":"$325,000 ",
+    "Deed":"1317977",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"STEARNS, WILLIAM G & REBECCA A",
+    "Resold Prop":"No",
+    "Acres":1.58,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.803125,46.799004 ]
+    },
+    "properties": {
+    "Land Address":"5437 12 ST S",
+    "Address":"5437 12 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 7, Blk 1",
+    "Cost":"$326,480 ",
+    "Deed":"1335654",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"ROHLA A. & DEBRA S.",
+    "Resold Prop":"Yes",
+    "Acres":0.68,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.783561,46.859479 ]
+    },
+    "properties": {
+    "Land Address":"1414 SOUTH RIVER RD S",
+    "Address":"1414 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 10, Blk 7",
+    "Cost":"$332,292.38 ",
+    "Deed":"1319921",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"SCHLOSSMAN",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801393,46.818974 ]
+    },
+    "properties": {
+    "Land Address":"3914 RIVER DR S",
+    "Address":"3914 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 20, Blk 6",
+    "Cost":"$335,000 ",
+    "Deed":"1319574",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"HUTH, C JOHN & LAURA",
+    "Resold Prop":"No",
+    "Acres":0.87,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d213"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799639,46.798983 ]
+    },
+    "properties": {
+    "Land Address":"5442 11 ST S",
+    "Address":"5442 11 ST S Fargo",
+    "Addition Name":"River Vili Additon",
+    "Legal Description":"Lot 16, Blk 1",
+    "Cost":"$335,000 ",
+    "Deed":"1319072",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"KOSKI, CHARLES G",
+    "Resold Prop":"No",
+    "Acres":1.05,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d214"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802252,46.798907 ]
+    },
+    "properties": {
+    "Land Address":"1136 55 AVE S",
+    "Address":"1136 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 9, Blk 1",
+    "Cost":"$341,110 ",
+    "Deed":"1334673",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"BERRY, SPENCER D & MARILYN T",
+    "Resold Prop":"No",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d215"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800632,46.798969 ]
+    },
+    "properties": {
+    "Land Address":"1106 55 AVE S",
+    "Address":"1106 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 14, Blk 1",
+    "Cost":"$355,000 ",
+    "Deed":"1319639",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"CLAFLIN, COURTNEY & CHRISTINE",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d216"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.797566,46.800802 ]
+    },
+    "properties": {
+    "Land Address":"5412 11 ST S",
+    "Address":"5412 11 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 21, Blk 1",
+    "Cost":"$359,920 ",
+    "Deed":"1341445",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"BROWN, JAMES O & LINDA J",
+    "Resold Prop":"No",
+    "Acres":3.39,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d217"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800951,46.79896 ]
+    },
+    "properties": {
+    "Land Address":"1112 55 AVE S",
+    "Address":"1112 55 AVE S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 13, Blk 1",
+    "Cost":"$365,000 ",
+    "Deed":"1319847",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"FLAA, MARK B & KATHY J",
+    "Resold Prop":"No",
+    "Acres":0.39,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d218"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798356,46.801018 ]
+    },
+    "properties": {
+    "Land Address":"5406 11 ST S",
+    "Address":"5406 11 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 22, Blk 1",
+    "Cost":"$365,860 ",
+    "Deed":"1341857",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"GRIEGER, GEROLD & MARIE",
+    "Resold Prop":"No",
+    "Acres":2.13,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d219"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.797886,46.799864 ]
+    },
+    "properties": {
+    "Land Address":"5424 11 ST S",
+    "Address":"5424 11 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 19, Blk 1",
+    "Cost":"$366,630 ",
+    "Deed":"1335981",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"MILLER, MARTIN L. & ELLEN M.",
+    "Resold Prop":"No",
+    "Acres":2.98,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d220"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798337,46.799453 ]
+    },
+    "properties": {
+    "Land Address":"5430 11 ST S",
+    "Address":"5430 11 ST S Fargo",
+    "Addition Name":"River Vili Additon",
+    "Legal Description":"Lot 18, Blk 1",
+    "Cost":"$382,000 ",
+    "Deed":"1318841",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"JETVIG, CHAD S & CAMILLE J",
+    "Resold Prop":"No",
+    "Acres":2.58,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d221"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.797576,46.800333 ]
+    },
+    "properties": {
+    "Land Address":"5418 11 ST S",
+    "Address":"5418 11 ST S Fargo",
+    "Addition Name":"River Vili Addition",
+    "Legal Description":"Lot 20, Blk 1",
+    "Cost":"$386,650 ",
+    "Deed":"1334969",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"BROWN, LOIS M (TRUSTEE)",
+    "Resold Prop":"No",
+    "Acres":3.55,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.787517,46.834119 ]
+    },
+    "properties": {
+    "Land Address":"509 SOUTHWOOD DR S",
+    "Address":"509 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 41",
+    "Cost":"$410,000 ",
+    "Deed":"1319396",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"MCLAUGHLIN, THOMAS S & PEGGY M",
+    "Resold Prop":"No",
+    "Acres":0.43,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d223"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.818511,46.810131 ]
+    },
+    "properties": {
+    "Land Address":"4609 ROSE CREEK PKWY S",
+    "Address":"4609 ROSE CREEK PKWY S Fargo",
+    "Addition Name":"Rose Creek 4th Additon",
+    "Legal Description":"Lot 5, Blk 1",
+    "Cost":"$465,000 ",
+    "Deed":"1319023",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"LINGLE, KEITH & TANYA",
+    "Resold Prop":"No",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d224"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.783093,46.85917 ]
+    },
+    "properties": {
+    "Land Address":"1430 SOUTH RIVER RD S",
+    "Address":"1430 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 14, Blk 7",
+    "Cost":"$480,000 ",
+    "Deed":"1319572",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"SCHLOSSMAN,  MARY I",
+    "Resold Prop":"No",
+    "Acres":0.49,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d225"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790788,46.830235 ]
+    },
+    "properties": {
+    "Land Address":"517 HARWOOD DR S",
+    "Address":"517 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th Addition",
+    "Legal Description":"Lot 6, Blk 1",
+    "Cost":"$511,170 ",
+    "Deed":"1339459",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"HANISH, CHARLES & KATHY",
+    "Resold Prop":"No",
+    "Acres":0.8,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d226"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.787624,46.834426 ]
+    },
+    "properties": {
+    "Land Address":"515 SOUTHWOOD DR S",
+    "Address":"515 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 42",
+    "Cost":"$590,000 ",
+    "Deed":"1321618",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"GILBERTSON",
+    "Resold Prop":"No",
+    "Acres":0.33,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d227"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791437,46.830175 ]
+    },
+    "properties": {
+    "Land Address":"601 HARWOOD DR S",
+    "Address":"601 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th Addition Lot 5, Blk 1",
+    "Legal Description":"",
+    "Cost":"$623,810 ",
+    "Deed":"1332099",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"HOVERSON, JON",
+    "Resold Prop":"No",
+    "Acres":0.91,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d228"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.766305,46.914677 ]
+    },
+    "properties": {
+    "Land Address":"2853 LILAC LN N",
+    "Address":"2853 LILAC LN N Fargo",
+    "Addition Name":"North Oaks Addition",
+    "Legal Description":"Lot 9, Blk 1",
+    "Cost":"$850,000 ",
+    "Deed":"1321059",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"NELSON, PAULE E. & PEARSON, JUDY C.",
+    "Resold Prop":"Yes",
+    "Acres":1.18,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d229"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.819083,46.808974 ]
+    },
+    "properties": {
+    "Land Address":"2593 ROSE CREEK PKWY S",
+    "Address":"2593 ROSE CREEK PKWY S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 16, Blk 2",
+    "Cost":"NA",
+    "Deed":"1295424",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"OFFUTT, RONALD D & KAREN G",
+    "Resold Prop":"No",
+    "Acres":1.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d230"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.822816,46.808561 ]
+    },
+    "properties": {
+    "Land Address":"2596 ROSE CREEK PKWY S",
+    "Address":"2596 ROSE CREEK PKWY S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 10, Blk 1",
+    "Cost":"NA",
+    "Deed":"1295424",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"OFFUTT, RONALD D & KAREN G",
+    "Resold Prop":"No",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d231"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.819838,46.810596 ]
+    },
+    "properties": {
+    "Land Address":"4603 25 ST S",
+    "Address":"4603 25 ST S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 15, Blk 2",
+    "Cost":"NA",
+    "Deed":"1295424",
+    "Deed Restricted":"No",
+    "Buyout Year":"2011",
+    "Grantor":"OFFUTT, RONALD D & KAREN G",
+    "Resold Prop":"No",
+    "Acres":0.87,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d232"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.820218,46.810364 ]
+    },
+    "properties": {
+    "Land Address":"4741 DOUGLAS DR S",
+    "Address":"4741 DOUGLAS DR S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 9, Blk 2",
+    "Cost":"$70,168 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"OFFUTT",
+    "Resold Prop":"No",
+    "Acres":0.28,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.820599,46.81042 ]
+    },
+    "properties": {
+    "Land Address":"4749 DOUGLAS DR S",
+    "Address":"4749 DOUGLAS DR S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 8, Blk 2",
+    "Cost":"$71,369 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"OFFUTT",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d234"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.819805,46.810305 ]
+    },
+    "properties": {
+    "Land Address":"4733 DOUGLAS DR S",
+    "Address":"4733 DOUGLAS DR S Fargo",
+    "Addition Name":"Coulee's Crossing Addition",
+    "Legal Description":"Lot 10, Blk 2",
+    "Cost":"$81,526 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"OFFUTT",
+    "Resold Prop":"No",
+    "Acres":0.35,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d235"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.822364,46.813123 ]
+    },
+    "properties": {
+    "Land Address":"4469 OAKCREEK DR S",
+    "Address":"4469 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$374,880 ",
+    "Deed":"1370054",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"VIG, BRIAN",
+    "Resold Prop":"No",
+    "Acres":0.54,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d236"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.821796,46.812386 ]
+    },
+    "properties": {
+    "Land Address":"4481 OAKCREEK DR S",
+    "Address":"4481 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$375,760 ",
+    "Deed":"1372361",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"ZAUN, GERALD",
+    "Resold Prop":"No",
+    "Acres":0.72,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.822738,46.813691 ]
+    },
+    "properties": {
+    "Land Address":"4461 OAKCREEK DR S",
+    "Address":"4461 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$438,130 ",
+    "Deed":"1369516",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"WOLD, JEFFERY & JOYCE",
+    "Resold Prop":"No",
+    "Acres":0.69,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.821476,46.812167 ]
+    },
+    "properties": {
+    "Land Address":"4485 OAKCREEK DR S",
+    "Address":"4485 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$462,220 ",
+    "Deed":"1371988",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"CARIK, RICHARD & CAMILLE",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d239"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.82248,46.813449 ]
+    },
+    "properties": {
+    "Land Address":"4465 OAKCREEK DR S",
+    "Address":"4465 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$487,410 ",
+    "Deed":"1372914",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"GROSZ, DAVID & BONNIE",
+    "Resold Prop":"No",
+    "Acres":0.68,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d240"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790646,46.829741 ]
+    },
+    "properties": {
+    "Land Address":"509 HARWOOD DR S",
+    "Address":"509 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th",
+    "Legal Description":"Lot 7, Blk 1",
+    "Cost":"$492,800 ",
+    "Deed":"1374741",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"OLSON, PATRICIA",
+    "Resold Prop":"No",
+    "Acres":0.84,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d241"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.820954,46.812051 ]
+    },
+    "properties": {
+    "Land Address":"4489 OAKCREEK DR S",
+    "Address":"4489 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$496,100 ",
+    "Deed":"1372650",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"FISHER, MARTIN & DIANE",
+    "Resold Prop":"No",
+    "Acres":0.62,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d242"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790077,46.82993 ]
+    },
+    "properties": {
+    "Land Address":"501 HARWOOD DR S",
+    "Address":"501 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th",
+    "Legal Description":"Lot 8, Blk 1",
+    "Cost":"$502,260 ",
+    "Deed":"1367545",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"TRAYNOR, MICHAEL & MARY BETH",
+    "Resold Prop":"No",
+    "Acres":1.01,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d243"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.821825,46.812692 ]
+    },
+    "properties": {
+    "Land Address":"4477 OAKCREEK DR S",
+    "Address":"4477 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek",
+    "Legal Description":"Lot",
+    "Cost":"$504,900 ",
+    "Deed":"1372362",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"SCHULZ, STANLEY & JUDITH",
+    "Resold Prop":"No",
+    "Acres":0.44,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d244"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.789624,46.829757 ]
+    },
+    "properties": {
+    "Land Address":"437 HARWOOD DR S",
+    "Address":"437 HARWOOD DR S Fargo",
+    "Addition Name":"Hackberry Pt of Harwood GrovLot 1, Blk 1",
+    "Legal Description":"",
+    "Cost":"$561,550 ",
+    "Deed":"1373866",
+    "Deed Restricted":"No",
+    "Buyout Year":"2012",
+    "Grantor":"FEDER, LESLIE",
+    "Resold Prop":"No",
+    "Acres":1.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d245"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.667665,45.546084 ]
+    },
+    "properties": {
+    "Land Address":"125 SOUTH TER N",
+    "Address":"125 SOUTH TER N Fargo",
+    "Addition Name":"Oak Grove Addition",
+    "Legal Description":"Lot",
+    "Cost":"$145.09 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"OPITZ, JAMES & NANCY",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d246"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790311,46.82905 ]
+    },
+    "properties": {
+    "Land Address":"502 HARWOOD DR S",
+    "Address":"502 HARWOOD DR S Fargo",
+    "Addition Name":"Harwood Groves 6th Addition",
+    "Legal Description":"Lot 10, Blk 1",
+    "Cost":"$531.96 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"VANG, DOUGLAS & KRISTI",
+    "Resold Prop":"No",
+    "Acres":0.54,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d247"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.785335,46.862808 ]
+    },
+    "properties": {
+    "Land Address":"1114 4 ST S",
+    "Address":"1114 4 ST S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 11, Blk 7",
+    "Cost":"$158,730 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"HIMMLEBERGER, THOMAS",
+    "Resold Prop":"No",
+    "Acres":0.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d248"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832145,46.819734 ]
+    },
+    "properties": {
+    "Land Address":"3227 39 AVE S",
+    "Address":"3227 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$167,310 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"ROTAR, JEFF J & KELLY A",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d249"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.784365,46.864765 ]
+    },
+    "properties": {
+    "Land Address":"321 10 AVE S",
+    "Address":"321 10 AVE S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 20 & E 1/2 OF 21, Blk 4",
+    "Cost":"$174,790 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"HEMM, PAUL",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d250"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.804666,46.81655 ]
+    },
+    "properties": {
+    "Land Address":"4120 15 ST S",
+    "Address":"4120 15 ST S Fargo",
+    "Addition Name":"Rosewood Park Addition",
+    "Legal Description":"Lot 6, Blk 2",
+    "Cost":"$284,020 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"SPELLERBERG, TODD & CARRIE",
+    "Resold Prop":"No",
+    "Acres":0.46,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d251"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795247,46.826628 ]
+    },
+    "properties": {
+    "Land Address":"3512 RIVER DR S",
+    "Address":"3512 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 3, Blk 5",
+    "Cost":"$290,840 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"MCDOUGALL, KEITH & LUANN",
+    "Resold Prop":"No",
+    "Acres":1.06,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d252"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.782854,46.859035 ]
+    },
+    "properties": {
+    "Land Address":"1436 SOUTH RIVER RD S",
+    "Address":"1436 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 15 & N 1/2 OF 16, LESS",
+    "Cost":"$293,590 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"CARLSON, SUSAN",
+    "Resold Prop":"No",
+    "Acres":0.47,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d253"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.796861,46.823184 ]
+    },
+    "properties": {
+    "Land Address":"3656 RIVER DR S",
+    "Address":"3656 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 16, Blk 5",
+    "Cost":"$297,220 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"PADDEN, JAMES & CAROL ANNE",
+    "Resold Prop":"No",
+    "Acres":1.08,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d254"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799614,46.823045 ]
+    },
+    "properties": {
+    "Land Address":"3702 RIVER DR S",
+    "Address":"3702 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 3 & NELY 3 FT OF 4, Bl ",
+    "Cost":"$297,990 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"BURCK, KEITH G & CYNTHIA S",
+    "Resold Prop":"No",
+    "Acres":0.79,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d255"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.783812,46.859637 ]
+    },
+    "properties": {
+    "Land Address":"1408 SOUTH RIVER RD S",
+    "Address":"1408 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 7, Blk 7",
+    "Cost":"$320,320 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"KNUDSON, GLENN & ROBERTA",
+    "Resold Prop":"No",
+    "Acres":0.63,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d256"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.796294,46.82411 ]
+    },
+    "properties": {
+    "Land Address":"3638 RIVER DR S",
+    "Address":"3638 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 13, Blk 5",
+    "Cost":"$320,870 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"HOGANSON, KARRY A & TAMMY A",
+    "Resold Prop":"No",
+    "Acres":2.66,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d257"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795297,46.82634 ]
+    },
+    "properties": {
+    "Land Address":"3518 RIVER DR S",
+    "Address":"3518 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 4, Blk 5",
+    "Cost":"$321,640 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"MOBERG, THOMAS F & MARY",
+    "Resold Prop":"No",
+    "Acres":1.04,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d258"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.765289,46.908805 ]
+    },
+    "properties": {
+    "Land Address":"198 NORTH WOODCREST D ",
+    "Address":"198 NORTH WOODCREST D  Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 19, Blk 16",
+    "Cost":"$324,720 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"JACOBSON, DANIEL & JOY",
+    "Resold Prop":"No",
+    "Acres":1.5,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d259"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795079,46.826056 ]
+    },
+    "properties": {
+    "Land Address":"3524 RIVER DR S",
+    "Address":"3524 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 5, Blk 5",
+    "Cost":"$328,240 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"BUTLER, GREGORY",
+    "Resold Prop":"No",
+    "Acres":1.04,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d260"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79678,46.823979 ]
+    },
+    "properties": {
+    "Land Address":"3650 RIVER DR S",
+    "Address":"3650 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 15, Blk 5",
+    "Cost":"$339,130 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"MAASJO, SHARON & BRADLEY",
+    "Resold Prop":"No",
+    "Acres":1.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d261"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.766462,46.909774 ]
+    },
+    "properties": {
+    "Land Address":"166 NORTH WOODCREST D",
+    "Address":"166 NORTH WOODCREST D Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 24, Blk 16",
+    "Cost":"$345,290 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"",
+    "Resold Prop":"No",
+    "Acres":0.33,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d262"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.797515,46.823736 ]
+    },
+    "properties": {
+    "Land Address":"3662 RIVER DR S",
+    "Address":"3662 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 17, Blk 5",
+    "Cost":"$351,010 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"SORENSON, SHIRLEY",
+    "Resold Prop":"No",
+    "Acres":0.99,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d263"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798917,46.823291 ]
+    },
+    "properties": {
+    "Land Address":"3676 RIVER DR S",
+    "Address":"3676 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 1, Blk 6",
+    "Cost":"$356,400 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"HAGGART, ANN M",
+    "Resold Prop":"No",
+    "Acres":0.76,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d264"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.766401,46.910051 ]
+    },
+    "properties": {
+    "Land Address":"160 NORTH WOODCREST D ",
+    "Address":"160 NORTH WOODCREST D  Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 25, Blk 16",
+    "Cost":"$360,470 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"REDMOND, GENE & KARLA",
+    "Resold Prop":"No",
+    "Acres":0.32,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d265"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.79764,46.823029 ]
+    },
+    "properties": {
+    "Land Address":"3668 RIVER DR S",
+    "Address":"3668 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 18, Blk 5",
+    "Cost":"$363,330 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"GREENWOOD, JOHN C & BONITA F",
+    "Resold Prop":"No",
+    "Acres":0.93,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d266"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.765,46.908307 ]
+    },
+    "properties": {
+    "Land Address":"204 NORTH WOODCREST D",
+    "Address":"204 NORTH WOODCREST D Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 18, Blk 16",
+    "Cost":"$384,230 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"BRO, GLENDA",
+    "Resold Prop":"No",
+    "Acres":1.81,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d267"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.798014,46.822928 ]
+    },
+    "properties": {
+    "Land Address":"3674 RIVER DR S",
+    "Address":"3674 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 19, Blk 5",
+    "Cost":"$407,440 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"GRANBERG, CARL M & NANCY K",
+    "Resold Prop":"No",
+    "Acres":0.89,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d268"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.784071,46.859919 ]
+    },
+    "properties": {
+    "Land Address":"1348 SOUTH RIVER RD S",
+    "Address":"1348 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park Addition",
+    "Legal Description":"Lot 4, 5, 6 & 7, Blk 7",
+    "Cost":"$425,370 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"STONER, STEVE & K R LAVELLE",
+    "Resold Prop":"No",
+    "Acres":1.14,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d269"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795196,46.825832 ]
+    },
+    "properties": {
+    "Land Address":"3532 RIVER DR S",
+    "Address":"3532 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 6, Blk 5",
+    "Cost":"$425,480 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"LUND, MILTON & BARBARA",
+    "Resold Prop":"No",
+    "Acres":0.88,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d270"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.765529,46.907743 ]
+    },
+    "properties": {
+    "Land Address":"179 SOUTH WOODCREST D ",
+    "Address":"179 SOUTH WOODCREST D  Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 17, Blk 16",
+    "Cost":"$425,590 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"MINEER, PATRICK & KATHERINE",
+    "Resold Prop":"No",
+    "Acres":2.6,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d271"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795311,46.826801 ]
+    },
+    "properties": {
+    "Land Address":"3506 RIVER DR S",
+    "Address":"3506 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 2, Blk 5",
+    "Cost":"$426,250 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"ALLEN, LEE & DOROTHY",
+    "Resold Prop":"No",
+    "Acres":1.12,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d272"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.766139,46.909004 ]
+    },
+    "properties": {
+    "Land Address":"192 NORTH WOODCREST D",
+    "Address":"192 NORTH WOODCREST D Fargo",
+    "Addition Name":"Woodcrest 3rd Additon",
+    "Legal Description":"Lot 20, Blk 16",
+    "Cost":"$429,220 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"SUNDERLAND, MARLYS I",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d273"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.796693,46.824053 ]
+    },
+    "properties": {
+    "Land Address":"3644 RIVER DR S",
+    "Address":"3644 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 14, Blk 5",
+    "Cost":"$438,020 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"KOBRINSKY, NATHAN & JANEEN",
+    "Resold Prop":"No",
+    "Acres":1.64,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d274"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800536,46.822279 ]
+    },
+    "properties": {
+    "Land Address":"3726 RIVER DR S",
+    "Address":"3726 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 7, Blk 6",
+    "Cost":"$438,130 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"FORKNELL, JONATHAN & BELINDA",
+    "Resold Prop":"No",
+    "Acres":0.75,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d275"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.793638,46.827929 ]
+    },
+    "properties": {
+    "Land Address":"720 HACKBERRY DR S",
+    "Address":"720 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves Additon",
+    "Legal Description":"Lot 5, Blk 3",
+    "Cost":"$456,280 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"HARTEL, RONALD H & MARILYN R",
+    "Resold Prop":"No",
+    "Acres":0.78,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.795254,46.825482 ]
+    },
+    "properties": {
+    "Land Address":"3538 RIVER DR S",
+    "Address":"3538 RIVER DR S Fargo",
+    "Addition Name":"Lemke Addition",
+    "Legal Description":"Lot 7, Blk 5",
+    "Cost":"$504,020 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"BAILLY, MARGARET",
+    "Resold Prop":"No",
+    "Acres":1.27,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d277"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.807407,46.816315 ]
+    },
+    "properties": {
+    "Land Address":"4128 17 ST S",
+    "Address":"4128 17 ST S Fargo",
+    "Addition Name":"Rosewood Park Addition",
+    "Legal Description":"Lot 19, Blk 2",
+    "Cost":"$504,130 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"KOUBA, CRAIG R & SCOTT, ROBIN G",
+    "Resold Prop":"No",
+    "Acres":0.42,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d278"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.794123,46.827476 ]
+    },
+    "properties": {
+    "Land Address":"802 HACKBERRY DR S",
+    "Address":"802 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves Additon",
+    "Legal Description":"Lot 3, Blk 3",
+    "Cost":"$517,990 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"GARRITY, STEPHEN & KARI ANN",
+    "Resold Prop":"No",
+    "Acres":0.44,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d279"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.807959,46.816335 ]
+    },
+    "properties": {
+    "Land Address":"4127 17 ST S",
+    "Address":"4127 17 ST S Fargo",
+    "Addition Name":"Rosewood Park Addition",
+    "Legal Description":"Lot 20, Blk 2",
+    "Cost":"$534,600 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"JOHNSON, MAX R & KATHLEEN T",
+    "Resold Prop":"No",
+    "Acres":0.46,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d280"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.791748,46.828648 ]
+    },
+    "properties": {
+    "Land Address":"610 HACKBERRY DR S",
+    "Address":"610 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves 2nd Additon",
+    "Legal Description":"Lot 2, Blk 2",
+    "Cost":"$539,660 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"DAMLE, AJIT KUMER & CHITRA",
+    "Resold Prop":"No",
+    "Acres":0.79,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d281"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792602,46.82841 ]
+    },
+    "properties": {
+    "Land Address":"626 HACKBERRY DR S",
+    "Address":"626 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves 2nd Additon Lot 8, Blk 3",
+    "Legal Description":"",
+    "Cost":"$571,780 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"FISHER, DAN & REBECCA",
+    "Resold Prop":"No",
+    "Acres":0.69,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d282"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.790681,46.828476 ]
+    },
+    "properties": {
+    "Land Address":"520 HACKBERRY DR S",
+    "Address":"520 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves 2nd Additon Lot 4, Blk 2",
+    "Legal Description":"",
+    "Cost":"$619,300 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"MOLONY, MICHAEL LEE & CONSTANCE LOUI No",
+    "Resold Prop":"",
+    "Acres":1.31,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d283"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799794,46.822171 ]
+    },
+    "properties": {
+    "Land Address":"3720 RIVER DR S",
+    "Address":"3720 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 6 & WLY 18 FT OF 5, B",
+    "Cost":"$778,690 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"SAMPSON, JEROME & MARIE",
+    "Resold Prop":"No",
+    "Acres":0.92,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d284"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.800947,46.820857 ]
+    },
+    "properties": {
+    "Land Address":"3820 RIVER DR S",
+    "Address":"3820 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 13 & 14, Blk 6",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"Engkjer, Gary",
+    "Resold Prop":"No",
+    "Acres":1.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d285"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801948,46.820659 ]
+    },
+    "properties": {
+    "Land Address":"3830 RIVER DR S",
+    "Address":"3830 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 14, Blk 6",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"BERTEL, ERIN",
+    "Resold Prop":"No",
+    "Acres":1.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d286"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802017,46.820474 ]
+    },
+    "properties": {
+    "Land Address":"3832 RIVER DR S",
+    "Address":"3832 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 15, Blk 6",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"LUNDBERG, ROXANNE",
+    "Resold Prop":"No",
+    "Acres":0.81,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d287"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801414,46.819464 ]
+    },
+    "properties": {
+    "Land Address":"3902 RIVER DR S",
+    "Address":"3902 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 18 & N 9 FT OF 19, Blk 6",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2013",
+    "Grantor":"WONG, TONY & KINA",
+    "Resold Prop":"No",
+    "Acres":0.9,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.827687,46.818306 ]
+    },
+    "properties": {
+    "Land Address":"3173 40 AVE S",
+    "Address":"3173 40 AVE S Fargo",
+    "Addition Name":"Johnson Farm",
+    "Legal Description":"Lot 4, Blk 1",
+    "Cost":"$41,000 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"R & B STONEBRIDGE LLP",
+    "Resold Prop":"No",
+    "Acres":0.66,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d289"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.785338,46.862548 ]
+    },
+    "properties": {
+    "Land Address":"1124 4 ST S",
+    "Address":"1124 4 ST S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 13, Blk 7",
+    "Cost":"$101,860 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"GOERGER, JACINTA & HILL DEBRA",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d290"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.836547,46.819517 ]
+    },
+    "properties": {
+    "Land Address":"3423 39 AVE S",
+    "Address":"3423 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$138,160 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"KALT, DUSTIN  A",
+    "Resold Prop":"No",
+    "Acres":0.29,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d291"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.833606,46.81969 ]
+    },
+    "properties": {
+    "Land Address":"3321 39 AVE S",
+    "Address":"3321 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$140,910 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BRUGGEMAN, SHANE & CARRIE",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d292"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.836292,46.819441 ]
+    },
+    "properties": {
+    "Land Address":"3419 39 AVE S",
+    "Address":"3419 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$143,660 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"FAHRENHOLTZ, TERRI",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d293"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832981,46.819635 ]
+    },
+    "properties": {
+    "Land Address":"3309 39 AVE S",
+    "Address":"3309 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$146,900 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"FRIEDL, JAKE",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d294"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.836099,46.819382 ]
+    },
+    "properties": {
+    "Land Address":"3415 39 AVE S",
+    "Address":"3415 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$150,404 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BECK, ATIANA C",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d295"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832774,46.81962 ]
+    },
+    "properties": {
+    "Land Address":"3305 39 AVE S",
+    "Address":"3305 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$150,590 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"NORMAN, PAMELA & CODY",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d296"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.833819,46.819667 ]
+    },
+    "properties": {
+    "Land Address":"3333 39 AVE S",
+    "Address":"3333 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$151,030 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BORNEMANN, JASON & AMANDA J",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d297"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.833394,46.819665 ]
+    },
+    "properties": {
+    "Land Address":"3315 39 AVE S",
+    "Address":"3315 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$152,900 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"ADAIR, JOHN B",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d298"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.834708,46.819617 ]
+    },
+    "properties": {
+    "Land Address":"3361 39 AVE S",
+    "Address":"3361 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$154,220 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"DANIELSON, CRAIG J",
+    "Resold Prop":"No",
+    "Acres":0.21,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d299"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.834473,46.819667 ]
+    },
+    "properties": {
+    "Land Address":"3355 39 AVE S",
+    "Address":"3355 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$155,650 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"ZITON, CINDY S & JAMES C",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832566,46.819594 ]
+    },
+    "properties": {
+    "Land Address":"3301 39 AVE S",
+    "Address":"3301 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$156,970 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"NORTON, JAMES & SIEMIENIEWSKI, AR",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d301"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.833187,46.81965 ]
+    },
+    "properties": {
+    "Land Address":"3311 39 AVE S",
+    "Address":"3311 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$156,970 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"GUSTAFSON, DAVID M & ERIN",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d302"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832312,46.819562 ]
+    },
+    "properties": {
+    "Land Address":"3233 39 AVE S",
+    "Address":"3233 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$157,300 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BENNINGTON, COREY & HEATHER",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d303"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.835901,46.819318 ]
+    },
+    "properties": {
+    "Land Address":"3409 39 AVE S",
+    "Address":"3409 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$157,850 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BELING, STEVEN D",
+    "Resold Prop":"No",
+    "Acres":0.2,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d304"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.835207,46.819292 ]
+    },
+    "properties": {
+    "Land Address":"3373 39 AVE S",
+    "Address":"3373 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$158,600 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"GROSS, BRIAN & KATHERINE",
+    "Resold Prop":"No",
+    "Acres":0.22,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d305"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.83504,46.819423 ]
+    },
+    "properties": {
+    "Land Address":"3369 39 AVE S",
+    "Address":"3369 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$159,600 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"TRONNES, OSCAR & JAN",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d306"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.834027,46.819659 ]
+    },
+    "properties": {
+    "Land Address":"3339 39 AVE S",
+    "Address":"3339 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$161,700 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"KRENZ, JOSHUA",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d307"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.835466,46.819335 ]
+    },
+    "properties": {
+    "Land Address":"3401 39 AVE S",
+    "Address":"3401 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$161,810 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"SMITH, CHARLES T & VICKY L",
+    "Resold Prop":"No",
+    "Acres":0.2,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d308"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.83682,46.819479 ]
+    },
+    "properties": {
+    "Land Address":"3427 39 AVE S",
+    "Address":"3427 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot 20, Blk 1",
+    "Cost":"$164,900 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"BANNOR, AMY A",
+    "Resold Prop":"No",
+    "Acres":0.26,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d309"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.834234,46.819651 ]
+    },
+    "properties": {
+    "Land Address":"3347 39 AVE S",
+    "Address":"3347 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$167,310 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"JACOBSON, TODD D",
+    "Resold Prop":"No",
+    "Acres":0.19,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d310"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.785336,46.862685 ]
+    },
+    "properties": {
+    "Land Address":"1118 4 ST S",
+    "Address":"1118 4 ST S Fargo",
+    "Addition Name":"Woodruffs Addition",
+    "Legal Description":"Lot 12, Blk 7",
+    "Cost":"$200,000 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"QUAM, RICHARD D",
+    "Resold Prop":"No",
+    "Acres":0.17,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d311"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.832007,46.819877 ]
+    },
+    "properties": {
+    "Land Address":"3221 39 AVE S",
+    "Address":"3221 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st Addition",
+    "Legal Description":"Lot",
+    "Cost":"$209,400 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"ERSTAD, BRYAN H & MONSON, BROOKE E",
+    "Resold Prop":"No",
+    "Acres":0.18,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d312"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.788951,46.834674 ]
+    },
+    "properties": {
+    "Land Address":"602 SOUTHWOOD DR S",
+    "Address":"602 SOUTHWOOD DR S Fargo",
+    "Addition Name":"Southwood Addition",
+    "Legal Description":"Lot 34",
+    "Cost":"$235,950 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"ANDERSON,  LYNETTE LOUISE",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d313"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801426,46.821344 ]
+    },
+    "properties": {
+    "Land Address":"3808 RIVER DR S",
+    "Address":"3808 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 11, Blk 6",
+    "Cost":"$342,210 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"WRIGHT, WILBUR D & CAROLYN K",
+    "Resold Prop":"No",
+    "Acres":0.82,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d314"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801356,46.82165 ]
+    },
+    "properties": {
+    "Land Address":"3802 RIVER DR S",
+    "Address":"3802 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 10, Blk 6",
+    "Cost":"$435,820 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"SOISETH, KEVIN & DANELLE",
+    "Resold Prop":"No",
+    "Acres":0.83,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d315"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.825749,46.817189 ]
+    },
+    "properties": {
+    "Land Address":"4015 COPPERFIELD CT S",
+    "Address":"4015 COPPERFIELD CT S Fargo",
+    "Addition Name":"Copperfield Addition",
+    "Legal Description":"Lot 11, Blk 1",
+    "Cost":"$460,680 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"MACDONALD, ALEXANDER TRUST",
+    "Resold Prop":"No",
+    "Acres":0.41,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d316"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.792721,46.828051 ]
+    },
+    "properties": {
+    "Land Address":"702 HACKBERRY DR S",
+    "Address":"702 HACKBERRY DR S Fargo",
+    "Addition Name":"Harwood Groves",
+    "Legal Description":"Lot 7, Blk 3",
+    "Cost":"$513,810 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"SCHLOSSMAN, CAROL",
+    "Resold Prop":"No",
+    "Acres":0.68,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d317"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.820993,46.811563 ]
+    },
+    "properties": {
+    "Land Address":"4493 OAKCREEK DR S",
+    "Address":"4493 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$595,320 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"PAPACHEK, RUSSELL R & NEVA J",
+    "Resold Prop":"No",
+    "Acres":0.75,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d318"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.823104,46.813877 ]
+    },
+    "properties": {
+    "Land Address":"4457 OAKCREEK DR S",
+    "Address":"4457 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$748,770 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"NOAH, THOMAS & KIMBERLY",
+    "Resold Prop":"No",
+    "Acres":0.68,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d319"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.821985,46.812956 ]
+    },
+    "properties": {
+    "Land Address":"4473 OAKCREEK DR S",
+    "Address":"4473 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$937,090 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"MCGOVERN, KEITH T & RONDI L",
+    "Resold Prop":"No",
+    "Acres":0.38,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d320"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.801334,46.819971 ]
+    },
+    "properties": {
+    "Land Address":"3838 RIVER DR S",
+    "Address":"3838 RIVER DR S Fargo",
+    "Addition Name":"Burritt-Kennedy Addition",
+    "Legal Description":"Lot 16, Blk 6",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2014",
+    "Grantor":"KROKE, KEVIN & KELLY",
+    "Resold Prop":"No",
+    "Acres":0.83,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d321"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.830936,46.818864 ]
+    },
+    "properties": {
+    "Land Address":"3938 33 ST S",
+    "Address":"3938 33 ST S Fargo",
+    "Addition Name":"Prairie Rose 2nd",
+    "Legal Description":"Lot 13, Blk 1",
+    "Cost":"$152,240 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"PHILBRICK, FRANKLIN D & LUELLA I",
+    "Resold Prop":"No",
+    "Acres":0.13,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d322"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.830877,46.819343 ]
+    },
+    "properties": {
+    "Land Address":"3930 33 ST S",
+    "Address":"3930 33 ST S Fargo",
+    "Addition Name":"Prairie Rose 2nd",
+    "Legal Description":"Lot 17, Blk 1",
+    "Cost":"$165,440 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"BUCKLE, HELEN & KERRY",
+    "Resold Prop":"No",
+    "Acres":0.32,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d323"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.830459,46.818509 ]
+    },
+    "properties": {
+    "Land Address":"3942 33 ST S",
+    "Address":"3942 33 ST S Fargo",
+    "Addition Name":"Prairie Rose 2nd",
+    "Legal Description":"Lot 12, Blk 1",
+    "Cost":"$179,850 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"LARSON, ANNETTE",
+    "Resold Prop":"No",
+    "Acres":0.39,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d324"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.83069,46.818428 ]
+    },
+    "properties": {
+    "Land Address":"3944 33 ST S",
+    "Address":"3944 33 ST S Fargo",
+    "Addition Name":"Prairie Rose 2nd",
+    "Legal Description":"Lot 11, Blk 1",
+    "Cost":"$180,070 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"COSSETTE, GAIL",
+    "Resold Prop":"No",
+    "Acres":0.45,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d325"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.831024,46.819834 ]
+    },
+    "properties": {
+    "Land Address":"3204 39 AVE S",
+    "Address":"3204 39 AVE S Fargo",
+    "Addition Name":"Prairie Rose 1st",
+    "Legal Description":"Lot",
+    "Cost":"$191,620 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"GRANDE, DON & BETTE B",
+    "Resold Prop":"No",
+    "Acres":0.23,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d326"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.780795,46.857888 ]
+    },
+    "properties": {
+    "Land Address":"1518 SOUTH RIVER RD S",
+    "Address":"1518 SOUTH RIVER RD S Fargo",
+    "Addition Name":"South Park",
+    "Legal Description":"Lot 29, Blk 7",
+    "Cost":"$399,300 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"2015",
+    "Grantor":"SCHEEL, KRISTEN ELIZABETH",
+    "Resold Prop":"No",
+    "Acres":0.88,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d327"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.776442,46.89836 ]
+    },
+    "properties": {
+    "Land Address":"1455 ELM ST N",
+    "Address":"1455 ELM ST N Fargo",
+    "Addition Name":"Ridgewood Addition",
+    "Legal Description":"Lot 2, Blk 1",
+    "Cost":"NA",
+    "Deed":"NA",
+    "Deed Restricted":"NA",
+    "Buyout Year":"NA",
+    "Grantor":"BAKKUM",
+    "Resold Prop":"No",
+    "Acres":0.36,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d328"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.802307,46.797872 ]
+    },
+    "properties": {
+    "Land Address":"5508 UNIVERSITY DR S",
+    "Address":"5508 UNIVERSITY DR S Fargo",
+    "Addition Name":"Unplatted",
+    "Legal Description":"GOVT LT 5 IN NE 1/4 OF SENA",
+    "Cost":"",
+    "Deed":"NA",
+    "Deed Restricted":"NA",
+    "Buyout Year":"NA",
+    "Grantor":"NA",
+    "Resold Prop":"No",
+    "Acres":7.07,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d329"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.799376,46.803821 ]
+    },
+    "properties": {
+    "Land Address":"1209 52 AVE S",
+    "Address":"1209 52 AVE S Fargo",
+    "Addition Name":"Unplatted South Annexation",
+    "Legal Description":"Unplatted,  TAX LT 47, S SI NA",
+    "Cost":"",
+    "Deed":"NA",
+    "Deed Restricted":"NA",
+    "Buyout Year":"NA",
+    "Grantor":"NA",
+    "Resold Prop":"No",
+    "Acres":8.82,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d330"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.82033,46.811365 ]
+    },
+    "properties": {
+    "Land Address":"4497 OAKCREEK DR S",
+    "Address":"4497 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$442,220 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"",
+    "Grantor":"KRUGER, STEVEN & DARLENE",
+    "Resold Prop":"No",
+    "Acres":0.95,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d331"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.823151,46.8142 ]
+    },
+    "properties": {
+    "Land Address":"4453 OAKCREEK DR S",
+    "Address":"4453 OAKCREEK DR S Fargo",
+    "Addition Name":"Oakcreek Addition",
+    "Legal Description":"Lot",
+    "Cost":"$568,700 ",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"",
+    "Grantor":"KAUL, RITHIE & PATRICIA",
+    "Resold Prop":"No",
+    "Acres":0.62,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d332"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.805032,46.816367 ]
+    },
+    "properties": {
+    "Land Address":"4126 15 ST S",
+    "Address":"4126 15 ST S Fargo",
+    "Addition Name":"Rosewood Park Addition",
+    "Legal Description":"Lot 7, Blk 2",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"No",
+    "Buyout Year":"",
+    "Grantor":"",
+    "Resold Prop":"No",
+    "Acres":0.52,
+    "marker-symbol":"small",
+    "marker-color":"#3bb2d333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Land Address":"",
+    "Address":"",
+    "Addition Name":"",
+    "Legal Description":"",
+    "Cost":"",
+    "Deed":"",
+    "Deed Restricted":"",
+    "Buyout Year":"",
+    "Grantor":"",
+    "Resold Prop":"",
+    "Acres":null,
+    "marker-symbol":"",
+    "marker-color":""
+    }
+  }
+]
+}
