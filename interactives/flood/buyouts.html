@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>FM Flood Buyouts</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src="buyouts.geojson"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+	.mapboxgl-popup {
+	    max-width: 220px;
+	    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}  
+    .fly {
+        display: inline-block;
+        position: relative;
+        margin: 0px auto;
+        left: 25%;
+        top: 8px;
+        width: 10%;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }
+</style>
+</head>
+<body>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+<div id='map'></div>
+<div class="buttons">
+<button class='fly' id='flyOxbow'>Oxbow</button>
+<button class='fly' id='flyOakport'>Oakport</button>
+<button class='fly' id='flyGlyndon'>Glyndon</button>
+<button class='fly' id='flySabin'>Sabin</button>
+<button class='fly' id='flyGeorgetown'>Georgetown</button>
+<button class='fly' id='flyHome'>Return</button>
+</div>
+<script>
+
+d3.json("buyouts.geojson", function(buyouts) {
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZXRoYW5uZWxzIiwiYSI6ImNpaHIwM21qNDAwMGR0ZmtoYjhlYWdlemQifQ.br2ZSDe6ODI4u1ECXefhgw';
+	var map =  new mapboxgl.Map({
+	    container: 'map',
+	    center: [-96.784428, 46.873476],
+	    style: 'mapbox://styles/mapbox/light-v8',
+	    zoom: 11
+	    });
+
+		map.addControl(new mapboxgl.Geocoder());
+
+	    // var myLayer = L.mapbox.featureLayer().addTo(map);
+
+	map.on('load', function () {
+	    map.addSource("points", {
+		"type": "geojson",
+		"data": buyouts
+		});
+	 
+	    map.addLayer({
+	        "id": "points",
+	        "type": "symbol",
+	        "source": "points",
+	        "layout": {
+	            "icon-image": "circle-11",
+	            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+	            "text-offset": [0, 0.6],
+	            "text-anchor": "top"
+	        }
+	    });
+	});
+
+
+	map.on('click', function (e) {
+	    var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
+
+	    if (!features.length) {
+	        return;
+	    }
+
+	    var feature = features[0];
+
+	    // Populate the popup and set its coordinates
+	    // based on the feature found.
+	    var popup = new mapboxgl.Popup()
+	        .setLngLat(feature.geometry.coordinates)
+	        .setHTML("<b>Address:</b> " + feature.properties.address + "\r" +  "<b>Cost:</b> " + feature.properties.cost + "<b>Agency:</b> " + feature.properties.agency)
+	        .addTo(map);
+	});
+
+	map.on('mousemove', function (e) {
+	    var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
+	    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+	});
+
+	document.getElementById('flyOxbow').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.800659, 46.669819],
+	        zoom: 13
+	    });
+	});
+	document.getElementById('flyOakport').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.776922, 46.938430],
+	        zoom: 13
+	    });
+	});
+	document.getElementById('flyGlyndon').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.579695, 46.873861],
+	        zoom: 11
+	    });
+	});
+	document.getElementById('flySabin').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.643603, 46.771944],
+	        zoom: 12
+	    });
+	});
+
+	document.getElementById('flyGeorgetown').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.795366, 47.079860]
+	    });
+	});
+
+	document.getElementById('flyHome').addEventListener('click', function () {
+	    map.flyTo({
+	        center: [-96.779771, 46.872892],
+	        zoom: 11
+	    });
+	});	
+
+	});
+</script>
+
+<script>
+	// myLayer.on('layeradd', function(e) {
+	//   var marker = e.layer,
+	//     feature = marker.feature;
+	//   var content = "<h2><b>" + "Address: " + "</b></h2>" + "<h3>"+feature.properties.ADDRESS+"<\/h3>" + "<h2><b>" + "Cost: " +"</b></h2>" + "<h3>"+feature.properties.COST+"<\/h3>";
+
+	//   marker.bindPopup(content);
+	// });
+	// myLayer.setGeoJSON(geojson);
+
+	// mapboxgl.accessToken = 'pk.eyJ1IjoiZXRoYW5uZWxzIiwiYSI6ImNpaHIwM21qNDAwMGR0ZmtoYjhlYWdlemQifQ.br2ZSDe6ODI4u1ECXefhgw';
+	// var map = new mapboxgl.Map({
+	//     container: 'map',
+	//     style: 'mapbox://styles/mapbox/streets-v9',
+	//     center: [-79.4512, 43.6568],
+	//     zoom: 13
+	// });
+
+
+</script>
+</body>
+</html>
