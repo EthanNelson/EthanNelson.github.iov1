@@ -2763,7 +2763,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.767804,46.873765 ]
+       "coordinates":  [ -96.783553,46.833201]
     },
     "properties": {
     "address":"3929 River Oak Cir S (2 PID) Moorhead",
@@ -3141,7 +3141,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.773418,46.875494 ]
+       "coordinates":  [-96.773898,46.869959]
     },
     "properties": {
     "address":"417 4th St S Moorhead",
@@ -3407,7 +3407,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.869978,46.833439 ]
+       "coordinates":  [-96.774518,46.882357]
     },
     "properties": {
     "address":"49 SOUTH TER N Fargo",
@@ -3435,7 +3435,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.851052,46.893844 ]
+       "coordinates":  [ -96.774921,46.882385]
     },
     "properties": {
     "address":"41 SOUTH TER N Fargo",
@@ -3799,7 +3799,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.816667,46.880254 ]
+       "coordinates":  [ -96775851,46.882409]
     },
     "properties": {
     "address":"23 SOUTH TER N Fargo",
