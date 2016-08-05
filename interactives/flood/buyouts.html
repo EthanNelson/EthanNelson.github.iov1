@@ -14,12 +14,13 @@
 	    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }  
     .fly {
-        display: inline-block;
+        display: block;
         position: relative;
         margin: 0px auto;
-        left: 25%;
-        top: 8px;
-        width: 10%;
+        margin-bottom: 10px;
+        top: 75px;
+        right: 46%;
+        width: 6%;
         height: 40px;
         padding: 10px;
         border: none;
@@ -27,8 +28,19 @@
         font-size: 12px;
         text-align: center;
         color: #fff;
-        background: #ee8a65;
+        background: #669999;
     }
+    .legend {
+	    background-color: #fff;
+	    bottom: 30px;
+	    width: 200px;
+	    box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+	    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	    padding: 5px;
+	    position: absolute;
+	    right: 10px;
+	    z-index: 1;
+}
 </style>
 </head>
 <body>
@@ -44,19 +56,35 @@
 <button class='fly' id='flySabin'>Sabin</button>
 <button class='fly' id='flyGeorgetown'>Georgetown</button>
 <button class='fly' id='flyHome'>Return</button>
+<div class='legend'>
+	<p>Hold shift, click and drag to zoom. Source: Fargo-Moorhead Diversion Authority, City of Moorhead, City of Fargo, Cass County, Clay County, Buffalo Red River Watershed District.</p>
+</div>
+
 </div>
 <script>
 
 d3.json("buyouts.geojson", function(buyouts) {
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZXRoYW5uZWxzIiwiYSI6ImNpaHIwM21qNDAwMGR0ZmtoYjhlYWdlemQifQ.br2ZSDe6ODI4u1ECXefhgw';
+
+	var bounds = [
+    [-97.614083, 46.536144], // Southwest coordinates
+    [-96.053370, 47.166936]  // Northeast coordinates
+];
+
 	var map =  new mapboxgl.Map({
 	    container: 'map',
 	    center: [-96.784428, 46.873476],
-	    style: 'mapbox://styles/mapbox/light-v8',
-	    zoom: 11
+	    style: 'mapbox://styles/mapbox/streets-v9',
+	    zoom: 11,
+	    maxBounds: bounds 
 	    });
 
 		map.addControl(new mapboxgl.Geocoder());
+		map.boxZoom.enable();
+
+
+		//new BoxZoomHandler(map: Map)
+		//map.BoxZoomHandler()
 
 	    // var myLayer = L.mapbox.featureLayer().addTo(map);
 
@@ -93,7 +121,7 @@ d3.json("buyouts.geojson", function(buyouts) {
 	    // based on the feature found.
 	    var popup = new mapboxgl.Popup()
 	        .setLngLat(feature.geometry.coordinates)
-	        .setHTML("<b>Address:</b> " + feature.properties.address + "\r" +  "<b>Cost:</b> " + feature.properties.cost + "<b>Agency:</b> " + feature.properties.agency)
+	        .setHTML("<b>Address:</b> " + feature.properties.address + "\r" +  "<b>Cost:</b> " + feature.properties.cost + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + "<b>Agency:</b> " + feature.properties.agency)
 	        .addTo(map);
 	});
 
