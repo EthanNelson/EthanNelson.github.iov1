@@ -1,207 +1,211 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset=utf-8 />
-<title>FM Flood Buyouts</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src="buyouts.geojson"></script>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-	.mapboxgl-popup {
-	    max-width: 220px;
-	    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}  
-    .fly {
-        display: block;
-        position: relative;
-        margin: 0px auto;
-        margin-bottom: 10px;
-        top: 75px;
-        right: 46%;
-        width: 6%;
-        height: 40px;
-        padding: 10px;
-        border: none;
-        border-radius: 3px;
-        font-size: 12px;
-        text-align: center;
-        color: #fff;
-        background: #669999;
-    }
-    .legend {
-	    background-color: #fff;
-	    bottom: 30px;
-	    width: 200px;
-	    box-shadow: 0 1px 2px rgba(0,0,0,0.10);
-	    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	    padding: 5px;
-	    position: absolute;
-	    right: 10px;
-	    z-index: 1;
-}
-.legend h4 {
-    margin: 0 0 10px;
-}
+   <head>
+      <meta charset=utf-8 />
+      <title>FM Flood Buyouts</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <script src="buyouts.geojson"></script>
+      <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <style>
+         body { margin:0; padding:0; }
+         #map { position:absolute; top:0; bottom:0; width:100%; }
+         .mapboxgl-popup {
+         max-width: 220px;
+         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+         }  
+         .fly {
+         display: block;
+         position: relative;
+         margin: 0px auto;
+         margin-bottom: 10px;
+         top: 75px;
+         right: 46%;
+         width: 6%;
+         height: 40px;
+         padding: 10px;
+         border: none;
+         border-radius: 3px;
+         font-size: 12px;
+         text-align: center;
+         color: #fff;
+         background: #669999;
+         }
+         #govt-legend {
+         bottom: 30px;
+         width: 200px;
+         right: 10px;
+         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+         }
+         #source {
+         bottom: 30px;
+         width: 300px;
+         left: 10px;
+         font: 9px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+         }
+         .legend { 
+         background-color: #fff;
+         z-index: 1;
+         box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+         padding: 5px;
+         position: absolute;
+         }
+         .legend h4 {
+         margin: 0 0 10px;
+         }
+         .legend div span {
+         border-radius: 50%;
+         display: inline-block;
+         height: 10px;
+         margin-right: 5px;
+         width: 10px;
+         }
+      </style>
+   </head>
+   <body>
+      <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+      <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+      <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+      <div id='map'></div>
+      <div class="buttons">
+         <button class='fly' id='flyOxbow'>Oxbow</button>
+         <button class='fly' id='flyOakport'>Oakport</button>
+         <button class='fly' id='flyGlyndon'>Glyndon</button>
+         <button class='fly' id='flySabin'>Sabin</button>
+         <button class='fly' id='flyGeorgetown'>Georgetown</button>
+         <button class='fly' id='flyHome'>Return</button>
+         <!-- <div class='legend'>
+            <p>Hold shift, click and drag to zoom. Source: Fargo-Moorhead Diversion Authority, City of Moorhead, City of Fargo, Cass County, Clay County, Buffalo Red River Watershed District.</p>
+            </div> -->
+         <div id='govt-legend' class='legend'>
+            <h4>Governments</h4>
+            <div><span style='background-color: #fbb03b'></span>Cass County</div>
+            <div><span style='background-color: #223b53'></span>Fargo</div>
+            <div><span style='background-color: #e55e5e'></span>Moorhead</div>
+            <div><span style='background-color: #993399'></span>Clay County</div>
+            <div><span style='background-color: #00cc66'></span>Fargo-Moorhead Diversion Authority</div>
+            <div><span style='background-color: #e6e600'></span>Buffalo-Red River Watershed District</div>
+         </div>
+         <div id="source" class="legend">
+            Data provided by Cass and Clay Counties, the Cities of Fargo and Moorhead, the Fargo-Moorhead Diversion Board of Authority and the Buffalo Red River Watershed District. In some cases, the cost of the property buyout was not reported. This map does not include properties where no street address was reported, or those that were purchased before 2009.
+         </div>
+      </div>
+      <script>
+         d3.json("buyouts.geojson", function(buyouts) {
+         	mapboxgl.accessToken = 'pk.eyJ1IjoiZXRoYW5uZWxzIiwiYSI6ImNpaHIwM21qNDAwMGR0ZmtoYjhlYWdlemQifQ.br2ZSDe6ODI4u1ECXefhgw';
+         
+         	var bounds = [
+             [-97.614083, 46.536144], // Southwest coordinates
+             [-96.053370, 47.166936]  // Northeast coordinates
+         ];
+         
+         	var map =  new mapboxgl.Map({
+         	    container: 'map',
+         	    center: [-96.784428, 46.873476],
+         	    style: 'mapbox://styles/mapbox/streets-v9',
+         	    zoom: 11,
+         	    maxBounds: bounds 
+         	    });
+         
+         		map.addControl(new mapboxgl.Geocoder());
+         		map.boxZoom.enable();
+         
+         	map.on('load', function () {
+         	    map.addSource("points", {
+         		"type": "geojson",
+         		"data": buyouts
+         		});
+         	 
+         	    map.addLayer({
+         	        "id": "points",
+         	        "type": "circle",
+         	        "source": "points",
+         	        'paint': {
+         	        		"circle-radius": {
+         		                'base': 3,
+         		                'stops': [[13, 3], [18, 130]]	        			
+         	        		},
+         	        		'circle-color': {
+         		                property: 'agency',
+         		                type: 'categorical',
+         		                stops: [
+         		                    ['Cass County', '#fbb03b'],
+         		                    ['Fargo', '#223b53'],
+         		                    ['Moorhead', '#e55e5e'],
+         		                    ['Clay County', '#993399'],
+         		                    ['Fargo-Moorhead Diversion Authority', '#00cc66'],
+         		                    ['Buffalo Red River Watershed District', '#e6e600'],
+         		                    ["", "#ccc"]]
+                     }
+         	        	}
+         	    
+         	});
+         var popup = new mapboxgl.Popup({
+             closeButton: false,
+             closeOnClick: false
+         });
+         
+         map.on('mousemove', function(e) {
+             var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
+             // Change the cursor style as a UI indicator.
+             map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+         
+             if (!features.length) {
+                 popup.remove();
+                 return;
+             }
+         
+         
+         	    var feature = features[0];
+         
+              // Populate the popup and set its coordinates
+              // based on the feature found.
+         	   popup.setLngLat(feature.geometry.coordinates)
+         	        .setHTML("<b>Address:</b> " + feature.properties.address + "\r" +  "<b>Cost:</b> " + feature.properties.cost + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + "<b>Agency:</b> " + feature.properties.agency)
+         	        .addTo(map);
+         	});
+         
+         	document.getElementById('flyOxbow').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.800659, 46.669819],
+         	        zoom: 13
+         	    });
+         	});
+         	document.getElementById('flyOakport').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.776922, 46.938430],
+         	        zoom: 13
+         	    });
+         	});
+         	document.getElementById('flyGlyndon').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.579695, 46.873861],
+         	        zoom: 11
+         	    });
+         	});
+         	document.getElementById('flySabin').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.643603, 46.771944],
+         	        zoom: 12
+         	    });
+         	});
+         
+         	document.getElementById('flyGeorgetown').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.795366, 47.079860]
+         	    });
+         	});
+         
+         	document.getElementById('flyHome').addEventListener('click', function () {
+         	    map.flyTo({
+         	        center: [-96.779771, 46.872892],
+         	        zoom: 11
+         	    });
+         	});	
+         
+         	});
+         });
+      </script>
 
-.legend div span {
-    border-radius: 50%;
-    display: inline-block;
-    height: 10px;
-    margin-right: 5px;
-    width: 10px;
-}
-</style>
-</head>
-<body>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
-<div id='map'></div>
-<div class="buttons">
-<button class='fly' id='flyOxbow'>Oxbow</button>
-<button class='fly' id='flyOakport'>Oakport</button>
-<button class='fly' id='flyGlyndon'>Glyndon</button>
-<button class='fly' id='flySabin'>Sabin</button>
-<button class='fly' id='flyGeorgetown'>Georgetown</button>
-<button class='fly' id='flyHome'>Return</button>
-<!-- <div class='legend'>
-	<p>Hold shift, click and drag to zoom. Source: Fargo-Moorhead Diversion Authority, City of Moorhead, City of Fargo, Cass County, Clay County, Buffalo Red River Watershed District.</p>
-</div> -->
-<div id='govt-legend' class='legend'>
-    <h4>Governments</h4>
-    <div><span style='background-color: #fbb03b'></span>Cass County</div>
-    <div><span style='background-color: #223b53'></span>Fargo</div>
-    <div><span style='background-color: #e55e5e'></span>Moorhead</div>
-    <div><span style='background-color: #3bb2d0'></span>Clay County</div>
-    <div><span style='background-color: #003300'></span>Fargo-Moorhead Diversion Authority</div>
-    <div><span style='background-color: #e6e600'></span>Buffalo Red River Watershed District</div>
-</div>
-
-</div>
-<script>
-
-d3.json("buyouts.geojson", function(buyouts) {
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZXRoYW5uZWxzIiwiYSI6ImNpaHIwM21qNDAwMGR0ZmtoYjhlYWdlemQifQ.br2ZSDe6ODI4u1ECXefhgw';
-
-	var bounds = [
-    [-97.614083, 46.536144], // Southwest coordinates
-    [-96.053370, 47.166936]  // Northeast coordinates
-];
-
-	var map =  new mapboxgl.Map({
-	    container: 'map',
-	    center: [-96.784428, 46.873476],
-	    style: 'mapbox://styles/mapbox/streets-v9',
-	    zoom: 11,
-	    maxBounds: bounds 
-	    });
-
-		map.addControl(new mapboxgl.Geocoder());
-		map.boxZoom.enable();
-
-
-		//new BoxZoomHandler(map: Map)
-		//map.BoxZoomHandler()
-
-	    // var myLayer = L.mapbox.featureLayer().addTo(map);
-
-	map.on('load', function () {
-	    map.addSource("points", {
-		"type": "geojson",
-		"data": buyouts
-		});
-	 
-	    map.addLayer({
-	        "id": "points",
-	        "type": "circle",
-	        "source": "points",
-	        'paint': {
-	        		"circle-radius": {
-		                'base': 3,
-		                'stops': [[13, 3], [18, 180]]	        			
-	        		},
-	        		'circle-color': {
-		                property: 'agency',
-		                type: 'categorical',
-		                stops: [
-		                    ['Cass County', '#fbb03b'],
-		                    ['Fargo', '#223b53'],
-		                    ['Moorhead', '#e55e5e'],
-		                    ['Clay County', '#3bb2d0'],
-		                    ['Fargo-Moorhead Diversion Authority', '#003300'],
-		                    ['Buffalo Red River Watershed District', '#e6e600']]
-            }
-	        	}
-	    
-	});
-
-
-	map.on('click', function (e) {
-	    var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
-
-	    if (!features.length) {
-	        return;
-	    }
-
-	    var feature = features[0];
-
-	    // Populate the popup and set its coordinates
-	    // based on the feature found.
-	    var popup = new mapboxgl.Popup()
-	        .setLngLat(feature.geometry.coordinates)
-	        .setHTML("<b>Address:</b> " + feature.properties.address + "\r" +  "<b>Cost:</b> " + feature.properties.cost + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + "<b>Agency:</b> " + feature.properties.agency)
-	        .addTo(map);
-	});
-
-	map.on('mousemove', function (e) {
-	    var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
-	    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-	});
-
-	document.getElementById('flyOxbow').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.800659, 46.669819],
-	        zoom: 13
-	    });
-	});
-	document.getElementById('flyOakport').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.776922, 46.938430],
-	        zoom: 13
-	    });
-	});
-	document.getElementById('flyGlyndon').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.579695, 46.873861],
-	        zoom: 11
-	    });
-	});
-	document.getElementById('flySabin').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.643603, 46.771944],
-	        zoom: 12
-	    });
-	});
-
-	document.getElementById('flyGeorgetown').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.795366, 47.079860]
-	    });
-	});
-
-	document.getElementById('flyHome').addEventListener('click', function () {
-	    map.flyTo({
-	        center: [-96.779771, 46.872892],
-	        zoom: 11
-	    });
-	});	
-
-	});
-});
-</script>
-
-</body>
+   </body>
 </html>
