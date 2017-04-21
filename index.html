@@ -1,28 +1,192 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<html lang="en">
+
 <head>
-	<title>Ethan Nelson</title>
-	<style>
-	</style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ethan Nelson</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    #content {
+    	color: black !important;
+    }
+    </style>
+
 </head>
 
 <body>
-	<div id="container">
-		<div id="header">
-			<h1>Ethan Nelson</h1>
-			<div id="menu-bar">
-				<p>Home | About | Resume | Contact</p>
-			</div>
-		</div>
 
-		<div id="content">
-<!-- 		<a href="interactives/diversity.html"><img class="center" src="images/diversity.png" style="width:500px; height:330px;"></a> -->
-			<iframe src="http://mndaily.github.io/neighborhoods/neighborhoods-map.html" style="z-index:-1" width="690"; height="625"; scrolling="no"; frameborder="0";></iframe>
-			<p><a href="http://mndaily.github.io/neighborhoods/neighborhoods-map.html">A mapping project for the Minnesota Daily. It displays data and crime stats of the University of Minnesota area.</a></p>
-			<iframe src="http://ethannelson.github.io/interactives/diversity.html" width="690"; height="415"; scrolling="no"; frameborder="0";></iframe>
-		</div>
-	</div>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Ethan Nelson</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4"id="content">Ethan Nelson <small>Data Reporter</small></h1>
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/basketball.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5" id="content">
+                <h3>Diversity among basketball coaches</h3>
+                <p>A project I worked on with Gophers basketball reporter Marcus Fuller. I did the data analysis and visualizations for this story about the lack of nonwhite basketball coaches in the Big Ten.</p>
+                <a class="btn btn-primary" href="http://www.startribune.com/black-coaches-vanish-from-big-ten-once-a-model-for-diversity-in-college-basketball/415396354/">View Project</a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/gophers.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5" id="content">
+                <h3>Gophers football attendance</h3>
+                <p>A story about attendance at Gopher football games since the 1930s. I analyzed the data, freely available on the Gophers website, and plotted it against overall school attendance and wins.</p>
+                <a class="btn btn-primary" href="#">View Project</a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-fluid rounded mb-3 mb-md-0" style="display:block; margin:0 auto" src="images/football.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5" id="content">
+                <h3>Prep football declining</h3>
+                <p>High school football participation has been going down, but it's largely tied to a decrease in the overall high school population. A story and some charts for Data Drop, a weekly(ish) feature by the <em>Star Tribune</em></p>
+                <a class="btn btn-primary" href="http://www.startribune.com/prep-football-participation-declining-but-not-just-because-of-concussions/412316783/">View Project</a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-fluid rounded mb-3 mb-md-0" style="display:block; margin:0 auto" src="images/opex.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5" id="content">
+                <h3>Administrative cuts</h3>
+                <p>An interactive bar chart for a story about administrative cuts to University of Minnesota units.</p>
+                <a class="btn btn-primary" href="#">View Project</a>
+            </div>
+        </div>
+        <!-- /.row -->
+       <hr>
+	<section id="about">
+        <div class="row">
+        	<div class="col-md-7">
+        		<img id="mug" src="images/mug.jpg">
+        	</div>
+            <div class="col-md-5" style="color:black">
+            	<h3>About</h3>
+            	<p>I'm a graduating senior studying journalism at the University of Minnesota. I like analyzing, interpreting and visualizing data. I can do Excel, SQL, Python, JavaScript, and I can use other tools, like Carto and Datawrapper. I'm a student data intern at the Minneapolis <em>Star Tribune</em>, and city editor at the <em>Minnesota Daily</em>.</p>
+            </div>
+        </div>
+    </section>
+
+
+        <hr>
+
+	<section id="resume">
+        <div class="row">
+        	<div class="col-sm-9" style="color:black; margin: 0 auto">
+            	<h3>Resume</h3>
+            	<p><a href="Ethan Nelson - resume.pdf" download><img src="images/resume.png"></a></p>
+            </div>
+        </div>
+    </section>  
+
+    <section id="contact">
+        <div class="row">
+            <div class="col-sm-9" style="color:black; margin: 0 auto">
+                <h3>Contact</h3>
+                <br>
+                <p>ethannels [at] gmail.com</p>
+                <p><a href="https://twitter.com/EthanNelson0">@EthanNelson0</a></p>
+                <p><a href="www.github.com/EthanNelson">GitHub</a></p>
+            </div>
+        </div>
+    </section>  
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-inverse">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Ethan Nelson 2017</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
