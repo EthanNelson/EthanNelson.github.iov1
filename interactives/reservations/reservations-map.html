@@ -1,223 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<meta charset="utf-8">
+<title>Reservation Incomes</title>
+<style>
 
-<head>
+.reservations {
+	fill-opacity: .85;
+}
+.states {
+  fill: #EAEAEA;
+  stroke: #fff;
+}
+div.tooltip {   
+ 	position: absolute;           
+	text-align: center;           
+	width: 100px;                  
+	padding: 2px;             
+	font: 12px sans-serif;        
+	background: white;   
+	border: 0px;      
+	border-radius: 8px;           
+	pointer-events: none;         
+}
+svg {
+	margin: 0 auto;
+}
+.rect {
+	stroke: black;
+}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+</style>
+<svg width="1200" height="650"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
 
-    <title>Ethan Nelson</title>
+<script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+var svg = d3.select("svg")
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
 
-    <!-- Custom styles for this template -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+var div = d3.select("body")
+    .append("div")   
+	.attr("class", "tooltip")               
+	.style("opacity", 0);    
 
-    <!-- Temporary navbar container fix -->
-    <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
+var color_domain = [20000, 30000, 40000, 50000, 60000, 70000, 80000]
+var ext_color_domain = [20000, 30000, 40000, 50000, 60000, 70000, 80000]
+var legend_labels = ["< $20,000", "$20,000-$30,000", "$40,000-$50,000","$50,000-$60,000", "$60,000-$70,0000","$70,000-$80,000",">$80,000"]              
+var mapColor = d3.scaleThreshold()
+.domain(color_domain)
+.range(d3.schemeRdBu[9]);
+
+
+var projection = d3.geoAlbersUsa();
+var path = d3.geoPath()
+    .projection(projection);
+
+var max_percent_change;
+
+// var x = d3.scaleLinear()
+//     .domain([2, 9])
+//     .rangeRound([600, 860]);
+
+// var mapColor = d3.scaleThreshold()
+//     .domain(d3.range(2, 9))
+//     .range(d3.schemePuBuGn[9]);
+
+// var g = svg.append("g")
+//     .attr("class", "key")
+//     .attr("transform", "translate(0,24)");
+
+// g.selectAll("rect")
+//   .data(mapColor.range().map(function(d) {
+//       d = mapColor.invertExtent(d);
+//       if (d[0] == null) d[0] = x.domain()[0];
+//       if (d[1] == null) d[1] = x.domain()[1];
+//       return d;
+//     }))
+//   .enter().append("rect")
+//     .attr("height", 8)
+//     .attr("x", function(d) { return x(d[0]); })
+//     .attr("width", function(d) { return x(d[1]) - x(d[0]); })
+//     .attr("fill", function(d) { return mapColor(d[0]); });
+
+// g.append("text")
+//     .attr("class", "caption")
+//     .attr("x", x.range()[0])
+//     .attr("y", -4)
+//     .attr("fill", "#000")
+//     .attr("text-anchor", "start")
+//     .attr("font-weight", "bold")
+//     .text("Percent change in income");
+
+// g.call(d3.axisBottom(x)
+//     .tickSize(13)
+//     .tickFormat(function(x, i) { return i ? x : x + "%"; })
+//     .tickValues(mapColor.domain()))
+//   .select(".domain")
+//     .remove();
+
+d3.json("geo/reservations.json", function(error, reservations) {
+d3.json("geo/states_geo.json", function(us) {
+  svg.append("path")
+      .datum(topojson.feature(us, us.objects.states_geo))
+      .attr("class", "states")
+      .attr("d", path);
+
+	console.log(reservations)
+  if (error) throw error;
+
+  svg.append("g")
+      .attr("class", "reservations")
+    .selectAll("path")
+    .data(topojson.feature(reservations, reservations.objects.reservations).features)
+    .enter().append("path")
+      //.filter(function(d) { return +d.properties.percent_change !== undefined })
+      .attr("d", path)
+      .attr("fill", function(d) { 
+        if (d.properties.median_household_income !== 0) {
+          return mapColor(d.properties.median_household_income) ;
         }
-    }
-    #content {
-    	color: black !important;
-    }
-    </style>
+        else {
+          return "#ccc";
+        }
+      })
+      .attr("stroke", "#8E8E8E")
+      .attr("stroke-width", ".5px")
+      .on("mousemove", function(d) {
+		d3.select(this).style('fill-opacity', 1);   
+    console.log(d.properties.median_household_income)         
+    	div.transition()        
+      	   .duration(100)      
+           .style("opacity", .9);
+           div.html("<b>" + d.properties.Geography+"</b> <br>" +  d3.format("($,.2f")(d.properties.median_household_income))
+           .style("left", (d3.event.pageX) + "px")     
+           .style("top", (d3.event.pageY - 28) + "px");    
+	})   
+    // fade out tooltip on mouse out               
+    .on("mouseout", function(d) {  
+    	d3.select(this).style('fill-opacity', .85);                 
+        div.transition()        
+           .duration(500)      
+           .style("opacity", 0);   
+    });
+})
+});
 
-</head>
+  var legend = svg.selectAll("g.legend")
+  .data(ext_color_domain)
+  .enter().append("g")
+  .attr("transform", "translate(0,15)")
+  .attr("class", "legend");
 
-<body>
+  var ls_w = 20, ls_h = 20;
 
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#">Ethan Nelson</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading -->
-        <h1 class="my-4"id="content">Ethan Nelson <small>Data Reporter</small></h1>
-
-        <!-- Project One -->
-
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/reservations.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Income on Reservations</h3>
-                <p>A quick map detailing median income on Native American reservations. This is part of a larger personal project I am working on.</p>
-                <a class="btn btn-primary" href="reservations-map.html">View Project</a>
-            </div>
-        </div>
-
-        <!-- Project Two -->
-
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/basketball.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Diversity among basketball coaches</h3>
-                <p>A project I worked on with Gophers basketball reporter Marcus Fuller. I did the data analysis and visualizations for this story about the lack of nonwhite basketball coaches in the Big Ten.</p>
-                <a class="btn btn-primary" href="http://www.startribune.com/black-coaches-vanish-from-big-ten-once-a-model-for-diversity-in-college-basketball/415396354/">View Project</a>
-            </div>
-        </div>
-
-        <!-- Project Three -->
-
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/equity.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Negative equity in the Twin Cities</h3>
-                <p>A project I worked on with real estate reporter Jim Buchta. I did the data analysis and prepared data for the visualizations for this story about percentage of homebuyers who were underwater in the Twin Cities.</p>
-                <a class="btn btn-primary" href="http://www.startribune.com/equity-strapped-sellers-in-twin-cities-keep-starter-homes-in-short-supply/422165613/">View Project</a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/gophers.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Gophers football attendance</h3>
-                <p>A story about attendance at Gopher football games since the 1930s. I analyzed the data, freely available on the Gophers website, and plotted it against overall school attendance and wins.</p>
-                <a class="btn btn-primary" href="http://www.mndaily.com/article/2016/12/gopher-football-turnout-drops">View Project</a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Five -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" style="display:block; margin:0 auto" src="images/football.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Prep football declining</h3>
-                <p>High school football participation has been going down, but it's largely tied to a decrease in the overall high school population. A story and some charts for Data Drop, a weekly(ish) feature by the <em>Star Tribune</em></p>
-                <a class="btn btn-primary" href="http://www.startribune.com/prep-football-participation-declining-but-not-just-because-of-concussions/412316783/">View Project</a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Six -->
-        <div class="row">
-
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" style="display:block; margin:0 auto" src="images/opex.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5" id="content">
-                <h3>Administrative cuts</h3>
-                <p>An interactive bar chart for a story about administrative cuts to University of Minnesota units.</p>
-                <a class="btn btn-primary" href="http://www.mndaily.com/article/2016/09/university-enters-another-year-of-administrative-reallocations">View Project</a>
-            </div>
-        </div>
-        <!-- /.row -->
-       <hr>
-	<section id="about">
-        <div class="row">
-        	<div class="col-md-7">
-        		<img id="mug" src="images/mug.jpg">
-        	</div>
-            <div class="col-md-5" style="color:black">
-            	<h3>About</h3>
-            	<p>I'm a journalism graduate from the University of Minnesota. I like analyzing, interpreting and visualizing data. I can do Excel, SQL, Python, JavaScript, and I can use other tools, like Carto and Datawrapper. I'm an analyst at Haworth Marketing + Media, and previously I was a data intern at the Minneapolis <em>Star Tribune</em>, and city editor at the <em>Minnesota Daily</em>.</p>
-            </div>
-        </div>
-    </section>
+  legend.append("rect")
+  .attr("x", 20)
+  .attr("y", function(d, i){ return height - (i*ls_h) - 1.75*ls_h;})
+  .attr("width", ls_w)
+  .attr("height", ls_h)
+  .attr("class","rect")
+  .style("fill", function(d, i) { return mapColor(d); })
+  .style("opacity", 0.8);
 
 
-        <hr>
+  legend.append("text")
+  .attr("x", 50)
+  .attr("y", function(d, i){ return height - (i*ls_h) - ls_h - 1;})
+  .text(function(d, i){ return legend_labels[i]; });
 
-	<section id="resume">
-        <div class="row">
-        	<div class="col-sm-9" style="color:black; margin: 0 auto">
-            	<h3>Resume</h3>
-            	<p><a href="Ethan Nelson - resume.pdf" download><img src="images/resume.png"></a></p>
-            </div>
-        </div>
-    </section>  
+  legend.append("text")
+  .attr("x", 20)
+  .attr("y", 492)
+  .text("Median Household Income");
 
-    <section id="contact">
-        <div class="row">
-            <div class="col-sm-9" style="color:black; margin: 0 auto">
-                <h3>Contact</h3>
-                <br>
-                <p>ethannels [at] gmail.com</p>
-                <p><a href="https://twitter.com/EthanNelson0">@EthanNelson0</a></p>
-                <p><a href="www.github.com/EthanNelson">GitHub</a></p>
-            </div>
-        </div>
-    </section>  
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-inverse">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Ethan Nelson 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+</script>
