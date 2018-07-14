@@ -1,8 +1,8 @@
 {
-    "title": "Freelancer",
-    "name": "startbootstrap-freelancer",
+    "title": "",
+    "name": "-",
     "version": "4.1.1",
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "description": "based on a Start Bootsrap theme",
     "keywords": [
         "css",
         "sass",
@@ -10,16 +10,6 @@
         "responsive",
         "theme",
         "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/freelancer",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
