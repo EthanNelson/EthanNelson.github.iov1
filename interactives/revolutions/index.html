@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+path {
+  stroke: .5 #fff;
+}
+
+
+</style>
+<svg width="960" height="600"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var colonial = d3.map();
+
+var projection = d3.geoMercator()
+                   .scale(130)
+                  .translate( [width / 2, height / 1.5]);
+
+var path = d3.geoPath().projection(projection);
+
+var x = d3.scaleLinear()
+    .domain([1, 10])
+    .rangeRound([600, 860]);
+
+var color = d3.scaleThreshold()
+    .domain(d3.range(1, 2))
+    .range(['#efedf5', '#756bb1']);
+
+d3.queue()
+    .defer(d3.json, "map.json")
+    .await(ready);
+var format = d3.timeFormat("%Y-%m")
+function ready(error, world) {
+  if (error) throw error;
+      console.log(world);          
+  svg.append("g")
+      .attr("class", "countries")
+    .selectAll("path")
+    .data(topojson.feature(world, world.objects.map).features)
+    .enter().append("path")
+      .attr("fill", function(d) { 
+        if (d.properties.coldata100_IndViol > 0) {
+          return "#756bb1";
+        }
+        else {
+          return "#ccc";
+        }
+      })
+      .attr("opacity", function(d) { 
+        if (d.properties.coldata100_IndViol > 0) {
+          return "1";
+        }
+        else {
+          return ".4";
+        }
+      })      
+      .attr("d", path)
+    .append("title")
+      .text(function(d) { if (d.properties.coldata100_IndViol > 0) {
+            return "Date of independence: " + (d.properties.coldata100_IndDate); 
+          }
+          else {
+            return "No violent independence";
+          }
+          });
+}
+
+</script>
