@@ -2,13 +2,30 @@
 <meta charset="utf-8">
 <style>
 
+#wrapper {
+  margin: 0 auto;
+  padding-left: 15%;
+}
+
 path {
   stroke: .5 #fff;
 }
 
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 6px;
+  font: 14px sans-serif;
+  background: white;
+  border: 1px solid black;
+  stroke: black;
+  pointer-events: none;
+}
 
 </style>
-<svg width="960" height="600"></svg>
+<div id="wrapper">
+  
+  <svg width="960" height="600" id="svg"></svg></div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
@@ -30,6 +47,10 @@ var x = d3.scaleLinear()
     .domain([1, 10])
     .rangeRound([600, 860]);
 
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0); 
+
 var color = d3.scaleThreshold()
     .domain(d3.range(1, 2))
     .range(['#efedf5', '#756bb1']);
@@ -37,7 +58,9 @@ var color = d3.scaleThreshold()
 d3.queue()
     .defer(d3.json, "map.json")
     .await(ready);
+
 var format = d3.timeFormat("%Y-%m")
+
 function ready(error, world) {
   if (error) throw error;
       console.log(world);          
@@ -63,14 +86,34 @@ function ready(error, world) {
         }
       })      
       .attr("d", path)
-    .append("title")
-      .text(function(d) { if (d.properties.coldata100_IndViol > 0) {
-            return "Date of independence: " + (d.properties.coldata100_IndDate); 
-          }
-          else {
-            return "No violent independence";
-          }
-          });
+     .on("mouseover", function(d) {
+      var year, trunc_year, notes;
+      if (d.properties.coldata100_IndDate != 94308 && typeof d.properties.coldata100_IndDate === "number") {
+        year = "" + d.properties.coldata100_IndDate;
+        trunc_year = year.substr(0,4);
+      }
+      else if (d.properties.coldata100_IndDate === 94308)
+      {
+        trunc_year = "943";
+      }
+      else {
+        trunc_year = "N/A";
+      }
+       div.transition()
+         .duration(200)
+         .style("opacity", .9);
+       div.html(("<b>" + d.properties.name + "</b><br>" 
+                       + "<b>Date of independence</b>: " + trunc_year))
+         .style("left", "10px")
+         .style("bottom", "200px");
+       })
+     .on("mouseout", function(d) {
+       div.transition()
+         .duration(500)
+         .style("opacity", 0);
+       });
 }
 
+d3.select("#svg")
+.attr("align","center");
 </script>
